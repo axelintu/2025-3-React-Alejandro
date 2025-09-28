@@ -1,8 +1,8 @@
+import PropTypes from 'prop-types';
 import NavBar from "./NavBar";
 import StatusBar from "./StatusBar";
 
-export default function Layout({children, currentView, onViewChange})
-{
+function Layout({children, currentView, onViewChange}) {
 return(<div>
   <header>
     <NavBar currentView={currentView} onViewChanges={onViewChange} />
@@ -13,3 +13,11 @@ return(<div>
     </main>
 </div>);
 }
+
+Layout.propTypes = {
+  children: PropTypes.object.isRequired,
+  currentView: PropTypes.string.isRequired,
+  onViewChange: PropTypes.func.isRequired
+}
+
+export default Layout;

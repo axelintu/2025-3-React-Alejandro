@@ -4,6 +4,15 @@ import PlayButton from "../../atoms/PlayButton";
 import TagButton from "../../atoms/TagButton";
 
 export default function AlbumCard({album}){
+  function handleTag () {
+    console.log('clicked label');
+  }
+  function handleClick () {
+    console.log('deleted album');
+  }
+  function handlePlay () {
+    console.log('clicked play');
+  } 
   return(
   <div className="albumCard">
     {album.title}
@@ -16,8 +25,8 @@ export default function AlbumCard({album}){
     </div>
     <h3>{album.title}</h3>
     <p>{album.description}</p>
-    <TagButton/>
-    <PlayButton/>
-    <DeleteButton/>
+    <TagButton label='Tag1' handle={handleTag} />
+    <PlayButton handle={ handlePlay }/>
+    <DeleteButton handle={ handleClick } />
   </div>);
 }

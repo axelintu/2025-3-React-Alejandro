@@ -1,8 +1,9 @@
+import PropTypes from 'prop-types';
 import albumsData from "../../data/albumsData";
 import photosData from "../../data/photosData";
 import "./StatusBar.css";
 
-export default function StatusBar({currentView}){
+function StatusBar({currentView}){
   const statusText = ()=>{
     switch (currentView) {
       case 'photos':
@@ -18,3 +19,9 @@ export default function StatusBar({currentView}){
     <span>Vista actual {statusText()}</span>
     </div>);
 }
+
+StatusBar.propTypes = {
+  currentView: PropTypes.string.isRequired
+}
+
+export default StatusBar;

@@ -1,4 +1,6 @@
-export default function AlbumForm ({action, album, onSaveAlbum}) {
+import PropTypes from 'prop-types';
+
+function AlbumForm ({action, album, onSaveAlbum}) {
   return(
     <div>
       <h3>Crear nuevo álbum</h3>
@@ -47,3 +49,11 @@ export default function AlbumForm ({action, album, onSaveAlbum}) {
     </div>
   );
 }
+
+AlbumForm.propTypes = {
+  url: PropTypes.string.isRequired,
+  title: PropTypes.string,
+  location: PropTypes.string
+};
+
+export default AlbumForm;
