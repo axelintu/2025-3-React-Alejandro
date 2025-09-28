@@ -3,6 +3,8 @@ import './App.css';
 import Layout from './layout/Layout';
 import Albums from './pages/Albums';
 import Photos from './pages/Photos';
+import EditPhoto from './pages/EditPhoto';
+import EditAlbum from './pages/EditAlbum';
 
 function App() {
   const [currentView, setCurrentView] = useState('photos');
@@ -12,6 +14,10 @@ function App() {
         return <Albums />;
       case 'photos':
         return <Photos />;
+      case 'newphoto':
+        return <EditPhoto />;
+      case 'newalbum':
+        return <EditAlbum />;
       default:
         return <Photos />;
     }
