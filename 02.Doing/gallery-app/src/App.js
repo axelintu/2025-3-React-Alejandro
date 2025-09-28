@@ -14,9 +14,9 @@ function App() {
         return <Albums />;
       case 'photos':
         return <Photos />;
-      case 'newphoto':
+      case 'newPhoto':
         return <EditPhoto />;
-      case 'newalbum':
+      case 'newAlbum':
         return <EditAlbum />;
       default:
         return <Photos />;

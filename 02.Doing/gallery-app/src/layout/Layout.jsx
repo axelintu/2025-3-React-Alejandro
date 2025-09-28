@@ -3,7 +3,6 @@ import StatusBar from "./StatusBar";
 
 export default function Layout({children, currentView, onViewChange})
 {
-console.log(onViewChange);
 return(<div>
   <header>
     <NavBar currentView={currentView} onViewChanges={onViewChange} />
