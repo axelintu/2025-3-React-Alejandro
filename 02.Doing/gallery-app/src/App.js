@@ -1,19 +1,26 @@
 import { useState } from 'react';
 import './App.css';
 import Layout from './layout/Layout';
+import Albums from './pages/Albums';
+import Photos from './pages/Photos';
 
 function App() {
-  const albums = [{
-    title:"My Album",
-    description:"Description",
-    images:[{url:"",name:"My Image"}],
-  }]
-
+  const [currentView, setCurrentView] = useState('photos');
+  const renderCurrentView = () => {
+    switch (currentView) {
+      case 'albums':
+        return <Albums />;
+      case 'photos':
+        return <Photos />;
+      default:
+        return <Photos />;
+    }
+  };
   return (
     <div className="App">
-      <h1>App</h1>
-      <Layout>
-        <AlbumCard album={albums[0]}></AlbumCard>
+      <h1>Gallery App</h1>
+      <Layout currentView={currentView} onViewChange={setCurrentView}>
+        {renderCurrentView()}
       </Layout>
     </div>
   );
