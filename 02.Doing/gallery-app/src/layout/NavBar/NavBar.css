@@ -1,0 +1,23 @@
+.navbar {
+  background-color: salmon;
+}
+.navbar .menu {
+  list-style-type: none;
+}
+.menu li {
+  display: inline-block;
+  width: 49%;
+}
+.menu a {
+  display: block;
+  padding: .5rem;
+  text-decoration: none;
+  color:aliceblue;
+  transition: all .3s;
+}
+.menu a:first-child {
+  border-right: 1px solid black;
+}
+.menu a:hover {
+  background-color: firebrick;
+}

@@ -1,6 +1,6 @@
+import { useState } from 'react';
 import './App.css';
 import Layout from './layout/Layout';
-import AlbumCard from './molecules/AlbumCard';
 
 function App() {
   const albums = [{

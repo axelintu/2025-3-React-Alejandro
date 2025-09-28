@@ -1,0 +1,26 @@
+.albumCard {
+  clear: both;
+  margin-bottom: 1rem;
+  padding: 20px;
+}
+.albumCard::after {
+  content: ' ';
+  clear: both;
+}
+.album-previews {
+  float: left;
+  width: 40%;
+}
+.album-previews::after {
+  content: ' ';
+  clear: both;
+}
+.album-previews img {
+  float: left;
+  display: block;
+  width: 49%;
+}
+.album-previews img::after {
+  content: ' ';
+  clear: both;
+}
