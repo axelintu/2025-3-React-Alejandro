@@ -1,18 +1,18 @@
 import PropTypes from 'prop-types';
 
-function TagButton({handle, label}){
+function TagButtons({handle, label}){
   return(
     <div 
       onClick={handle}
     > TAG:
-      <p>{label}</p>
+      <span>{label}</span>
     </div>
     );
 }
 
-TagButton.propTypes = {
+TagButtons.propTypes = {
   handle: PropTypes.func.isRequired,
   label: PropTypes.string.isRequired
 }
 
-export default TagButton;
+export default TagButtons;

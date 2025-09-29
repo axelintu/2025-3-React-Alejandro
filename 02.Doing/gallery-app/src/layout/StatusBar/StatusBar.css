@@ -21,3 +21,13 @@
 .menu a:hover {
   background-color: firebrick;
 }
+
+.statusbar {
+  display: block;
+  position: relative;
+}
+.status-actions {
+  position: absolute;
+  right: 0;
+  top: 0;
+}

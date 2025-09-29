@@ -4,11 +4,11 @@ import "./Photos.css";
 
 export default function Photos () {
   // console.log(photosData);
-  return (    
+  return (
     photosData.map((photo, i)=>{
       return(
         <PhotoCard photo={photo} key={i} />
       )
     })
-  )
+  );
 }

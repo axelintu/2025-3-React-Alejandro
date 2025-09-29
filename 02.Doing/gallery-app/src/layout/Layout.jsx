@@ -6,9 +6,9 @@ function Layout({children, currentView, onViewChange}) {
 return(<div>
   <header>
     <NavBar currentView={currentView} onViewChanges={onViewChange} />
-    <StatusBar currentView={currentView}/>
+    <StatusBar currentView={currentView} onViewChanges={onViewChange} />
   </header>
-    <main>
+    <main className={'main-'+currentView}>
       {children}
     </main>
 </div>);

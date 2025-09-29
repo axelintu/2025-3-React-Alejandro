@@ -1,8 +1,21 @@
 import PropTypes from 'prop-types';
+import "./DeleteButton.css";
 
 function DeleteButton({handle, disabled}){
   // console.log(handle);
-  return(<button onClick={handle}>DELETE</button>);
+  return(
+  <div
+    onClick={handle}
+    className='delete-button'
+    >
+      <span className="delete-text">
+        DELETE
+      </span>
+      <span className="delete-icon">
+        🗑️
+      </span>
+    </div>
+  );
 }
 
 DeleteButton.propTypes = {

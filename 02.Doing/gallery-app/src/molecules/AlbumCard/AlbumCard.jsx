@@ -1,7 +1,7 @@
 import "./AlbumCard.css";
 import DeleteButton from "../../atoms/DeleteButton";
 import PlayButton from "../../atoms/PlayButton";
-import TagButton from "../../atoms/TagButton";
+import TagButtons from "../../atoms/TagButtons";
 
 export default function AlbumCard({album}){
   function handleTag () {
@@ -25,7 +25,7 @@ export default function AlbumCard({album}){
     </div>
     <h3>{album.title}</h3>
     <p>{album.description}</p>
-    <TagButton label='Tag1' handle={handleTag} />
+    <TagButtons label='Tag1' handle={handleTag} />
     <PlayButton handle={ handlePlay }/>
     <DeleteButton handle={ handleClick } />
   </div>);

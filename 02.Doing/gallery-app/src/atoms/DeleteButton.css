@@ -1,0 +1,9 @@
+.delete-button {
+  float: right;
+}
+.delete-button:hover {
+  cursor: pointer;
+}
+.delete-text {
+  font-size: 0;
+}
