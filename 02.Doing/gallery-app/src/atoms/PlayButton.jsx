@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 
 function PlayButton({handle, isPlaying}){
-  // console.log(handle);
   return(<button onClick={handle}>PLAY</button>);
 }
 PlayButton.propTypes = {

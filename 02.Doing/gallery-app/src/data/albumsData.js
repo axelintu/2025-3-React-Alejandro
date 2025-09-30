@@ -6,6 +6,10 @@ const albumsData = [
       { "url": "https://picsum.photos/id/10/1200/800", "name": "Neon Street" },
       { "url": "https://picsum.photos/id/11/1200/800", "name": "Wet Avenue" },
       { "url": "https://picsum.photos/id/12/1200/800", "name": "Taxi Blur" },
+      { "url": "https://picsum.photos/id/13/1200/800", "name": "Skyscraper" },
+      { "url": "https://picsum.photos/id/10/1200/800", "name": "Neon Street" },
+      { "url": "https://picsum.photos/id/11/1200/800", "name": "Wet Avenue" },
+      { "url": "https://picsum.photos/id/12/1200/800", "name": "Taxi Blur" },
       { "url": "https://picsum.photos/id/13/1200/800", "name": "Skyscraper" }
     ]
   },
@@ -14,9 +18,9 @@ const albumsData = [
     "description": "Bosques y mañanas frías cerca de Aguascalientes.",
     "images": [
       { "url": "https://picsum.photos/id/14/1200/800", "name": "Pine Trail" },
-      { "url": "https://picsum.photos/id/15/1200/800", "name": "Mossy Rock" },
-      { "url": "https://picsum.photos/id/16/1200/800", "name": "Mountain Fog" },
-      { "url": "https://picsum.photos/id/17/1200/800", "name": "Cold Creek" }
+      // { "url": "https://picsum.photos/id/15/1200/800", "name": "Mossy Rock" },
+      // { "url": "https://picsum.photos/id/16/1200/800", "name": "Mountain Fog" },
+      // { "url": "https://picsum.photos/id/17/1200/800", "name": "Cold Creek" }
     ]
   },
   {
@@ -25,8 +29,8 @@ const albumsData = [
     "images": [
       { "url": "https://picsum.photos/id/18/1200/800", "name": "Horizon Line" },
       { "url": "https://picsum.photos/id/19/1200/800", "name": "Motel Sign" },
-      { "url": "https://picsum.photos/id/20/1200/800", "name": "Gas Station" },
-      { "url": "https://picsum.photos/id/21/1200/800", "name": "Lonely Road" }
+      // { "url": "https://picsum.photos/id/20/1200/800", "name": "Gas Station" },
+      // { "url": "https://picsum.photos/id/21/1200/800", "name": "Lonely Road" }
     ]
   },
   {
@@ -36,7 +40,7 @@ const albumsData = [
       { "url": "https://picsum.photos/id/22/1200/800", "name": "Espresso Shot" },
       { "url": "https://picsum.photos/id/23/1200/800", "name": "Latte Art" },
       { "url": "https://picsum.photos/id/24/1200/800", "name": "Workstation" },
-      { "url": "https://picsum.photos/id/25/1200/800", "name": "Notebook" }
+      // { "url": "https://picsum.photos/id/25/1200/800", "name": "Notebook" }
     ]
   },
   {

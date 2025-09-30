@@ -13,7 +13,7 @@ function App() {
       case 'albums':
         return <Albums />;
       case 'photos':
-        return <Photos className="photos" />;
+        return <Photos />;
       case 'newPhoto':
         return <EditPhoto />;
       case 'newAlbum':

@@ -6,6 +6,7 @@ function DeleteButton({handle, disabled}){
   return(
   <div
     onClick={handle}
+    disabled={disabled}
     className='delete-button'
     >
       <span className="delete-text">

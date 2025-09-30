@@ -1,5 +1,6 @@
 import DeleteButton from "../../atoms/DeleteButton";
 import TagButtons from "../../atoms/TagButtons";
+import "./PhotoCard.css";
 
 export default function PhotoCard ({photo}) {
   function handleTag () {

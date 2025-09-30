@@ -1,24 +1,35 @@
-.albumCard {
-  clear: both;
+.album-card {
   margin-bottom: 1rem;
   padding: 20px;
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
-.albumCard::after {
-  content: ' ';
-  clear: both;
+
+.album-card {
+  padding: .5rem;
+  border: 1px solid #ccc;
+  border-radius: .3rem;
+  box-shadow: 0 0 3px rgba(0,0,0,.3);
 }
+
 .album-previews {
-  float: left;
-  width: 40%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10px;
 }
-.album-previews::after {
-  content: ' ';
-  clear: both;
+.album-previews.album-with-1 {
+  grid-template-columns:auto ;
+}
+.album-previews.album-with-3 {
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: auto auto;
+}
+.album-previews.album-with-3 :first-child {
+  grid-column: 1 / span 2;
 }
 .album-previews img {
-  float: left;
-  display: block;
-  width: 49%;
+  max-width: 100%;
 }
 .album-previews img::after {
   content: ' ';
