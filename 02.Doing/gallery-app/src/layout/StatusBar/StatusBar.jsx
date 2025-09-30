@@ -25,13 +25,43 @@ function StatusBar({currentView,onViewChanges}){
         return '';
     }
   }
+  const getStatusInfo = () => {
+    switch (currentView) {
+      case 'photos':
+        return {
+          count: photosData.length,
+          label: 'Photos Total',
+          addAction: 'newPhoto'
+        }
+      case 'albums':
+        return {
+          count: albumsData.length,
+          label: 'Albums Total',
+          addAction: 'newAlbum'
+        }
+      default:
+        return {
+          count: null,
+          label: null,
+          addAction: null
+        }
+    }
+  }
+  const statusInfo = getStatusInfo();
   return (<div className="statusbar">
-      <div className='status-text'>{statusText()}</div>
-      <div className='status-actions'>
-        {showAvailableActions()}
+    
+      <div className='status-text'>
+        { statusInfo.count !== null && ( <span>{statusText()} | {statusInfo.count} {statusInfo.label} </span>) }
       </div>
-    </div>
-  );
+      <div className='status-actions'>
+        { statusInfo.count !== null && (
+          <span>
+            {showAvailableActions()} | <button onClick={ () => {onViewChanges(statusInfo.addAction)}}>{statusInfo.addAction}</button>
+          </span>
+        )}
+      </div>
+  </div>
+  )
 }
 
 StatusBar.propTypes = {
