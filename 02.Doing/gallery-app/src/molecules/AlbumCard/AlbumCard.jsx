@@ -37,7 +37,17 @@ function AlbumCard({album}){
   </div>);
 }
 AlbumCard.propTypes = {
-  album: PropTypes.object
+  album: PropTypes.shape({
+    id:PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string,
+    images: PropTypes.arrayOf(
+      PropTypes.shape({
+        url:PropTypes.string.isRequired,
+        name:PropTypes.string
+      })
+    )
+  }).isRequired
 }
 
 export default AlbumCard;

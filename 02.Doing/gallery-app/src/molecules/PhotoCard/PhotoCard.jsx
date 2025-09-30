@@ -1,8 +1,9 @@
+import PropTypes from "prop-types";
 import DeleteButton from "../../atoms/DeleteButton";
 import TagButtons from "../../atoms/TagButtons";
 import "./PhotoCard.css";
 
-export default function PhotoCard ({photo}) {
+function PhotoCard ({photo}) {
   function handleTag () {
     console.log('clicked label');
   }
@@ -28,3 +29,16 @@ export default function PhotoCard ({photo}) {
     </div>
   );
 }
+
+PhotoCard.propTypes = {
+  photo: PropTypes.shape({
+    id: PropTypes.oneOfType([PropTypes.string,PropTypes.number]).isRequired,
+    title: PropTypes.string.isRequired,
+    url:PropTypes.string.isRequired,
+    description:PropTypes.string,
+    localStorage:PropTypes.string,
+    tags: PropTypes.arrayOf(PropTypes.string)
+  })
+}
+
+export default PhotoCard;

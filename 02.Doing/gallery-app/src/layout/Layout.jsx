@@ -15,7 +15,7 @@ return(<div>
 }
 
 Layout.propTypes = {
-  children: PropTypes.object.isRequired,
+  children: PropTypes.node.isRequired,
   currentView: PropTypes.string.isRequired,
   onViewChange: PropTypes.func.isRequired
 }
