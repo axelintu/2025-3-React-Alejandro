@@ -6,9 +6,24 @@ import Photos from './pages/Photos';
 import EditPhoto from './pages/EditPhoto';
 import EditAlbum from './pages/EditAlbum';
 import ConfirmDialog from './molecules/ConfirmDialog';
+import albumsData from './data/albumsData';
+import photosData from './data/photosData';
 
 function App() {
   const [currentView, setCurrentView] = useState('photos');
+  const getFromStorage = (key,defaultValue) => {
+    try {
+      const item = localStorage.getItem(key);
+      console.log(item ? JSON.parse(item) : defaultValue);
+      return item ? JSON.parse(item) : defaultValue;      
+    } catch (error) {
+      console.error(error);
+      return defaultValue;
+    }
+  }
+  
+  const [albums, setAlbums] = useState( () => getFromStorage('gallery-albums', albumsData) );
+  const [photos, setPhotos] = useState( () => getFromStorage('gallery-photos', photosData) );
   // Estado para el dialog de confirmacion de eliminacion de album
   const [isConfirmDialogOpen, setIsConfirmDialogOpen] = useState(null);
   const [albumToDelete, setAlbumToDelete] = useState(null);
