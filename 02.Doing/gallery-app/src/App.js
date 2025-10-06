@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import './App.css';
 import Layout from './layout/Layout';
 import Albums from './pages/Albums';
+import AlbumCarousel from "./pages/AlbumCarousel";
 import Photos from './pages/Photos';
 import EditPhoto from './pages/EditPhoto';
 import EditAlbum from './pages/EditAlbum';
@@ -12,7 +13,7 @@ import './utils/localStorage';
 import { getFromStorage, saveToStorage } from './utils/localStorage';
 
 function App() {
-  const [currentView, setCurrentView] = useState('photos');
+  const [currentView, setCurrentView] = useState('albums');
   // Get data for albums and photos from localStorage or from files
   const [albums, setAlbums] = useState(
     () => getFromStorage('gallery-albums', albumsData) 
@@ -20,11 +21,40 @@ function App() {
   const [photos, setPhotos] = useState(
     () => getFromStorage('gallery-photos', photosData)
   );
+  
+  // const handleViewChange = (newView) => {
+  //   // Si es una acción de crear/editar, abrir modal en lugar de cambiar vista
+  //   if (newView === "newAlbum") {
+  //     setAlbumModalAction("create");
+  //     setSelectedAlbum(null);
+  //     setIsAlbumModalOpen(true);
+  //   } else if (newView === "newPhoto") {
+  //     setPhotoModalAction("create");
+  //     setSelectedPhoto(null);
+  //     setIsPhotoModalOpen(true);
+  //   } else {
+  //     setCurrentView(newView);
+  //   }
+  // };
   // Estado para el dialog de confirmacion de eliminacion de album
   const [isConfirmDialogOpen, setIsConfirmDialogOpen] = useState(null);
 
   const [albumToDelete, setAlbumToDelete] = useState(null);
   const [photoToDelete, setPhotoToDelete] = useState(null);
+
+  // Estado para el modal del carrusel de álbum
+  const [isCarouselModalOpen, setIsCarouselModalOpen] = useState(false);
+  const [carouselAlbum, setCarouselAlbum] = useState([]);
+
+  const handlePlayAlbum = (album) => {
+    setIsCarouselModalOpen(true);
+    setCarouselAlbum(album);
+    console.log('clicked play', album);
+  }
+  const handleCloseCarousel = () => {
+    setIsCarouselModalOpen(false);
+    setCarouselAlbum([]);
+  }
   
   const handleConfirmDeleteAlbum = () => {
     if (albumToDelete) {
@@ -57,7 +87,13 @@ function App() {
   const renderCurrentView = () => {
     switch (currentView) {
       case 'albums':
-        return <Albums />;
+        return (
+        <Albums
+          albums={albums}
+          onPlayAlbum={handlePlayAlbum}
+          setCurrentAlbum={setCarouselAlbum}
+        />
+      );
       case 'photos':
         return <Photos />;
       case 'newPhoto':
@@ -65,7 +101,13 @@ function App() {
       case 'newAlbum':
         return <EditAlbum />;
       default:
-        return <Photos />;
+        return (
+        <Albums
+          albums={albums}
+          onPlayAlbum={handlePlayAlbum}
+          setCurrentAlbum={setCarouselAlbum}
+        />
+      );
     }
   };
   
@@ -96,6 +138,11 @@ function App() {
         onConfirm={handleConfirmDeletePhoto}
         onCancel={handleCancelDeletePhoto}
       ></ConfirmDialog>
+      <AlbumCarousel 
+        isOpen={isCarouselModalOpen}
+        album={carouselAlbum}
+        onClose={handleCloseCarousel}
+      />
     </div>
   );
 }

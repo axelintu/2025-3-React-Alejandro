@@ -1,11 +1,17 @@
 import PropTypes from 'prop-types';
 import "./DeleteButton.css";
 
-function DeleteButton({ handle, disabled, size, children }){
+function DeleteButton({ 
+  handle, 
+  disabled, 
+  size, 
+  children,
+  album 
+  }){
   // console.log(handle);
   return(
   <div
-    onClick={handle}
+    onClick={() => {handle(album)}}
     disabled={disabled}
     className={`delete-button btn-${size} `}
     >
@@ -24,13 +30,14 @@ DeleteButton.propTypes = {
   handle: PropTypes.func.isRequired,
   disabled: PropTypes.bool,
   size: PropTypes.string,
-  children: PropTypes.node
+  children: PropTypes.node,
+  album: PropTypes.shape
 }
 
 DeleteButton.defaultProps = {
   disabled: false,
   size: 'md',
-  children: null
+  children: null,
 }
 
 export default DeleteButton;

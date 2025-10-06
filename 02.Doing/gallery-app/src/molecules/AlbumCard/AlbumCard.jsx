@@ -4,15 +4,15 @@ import PlayButton from "../../atoms/PlayButton";
 import TagButtons from "../../atoms/TagButtons";
 import "./AlbumCard.css";
 
-function AlbumCard({album}){
+function AlbumCard({
+  album,
+  handlePlay
+}){
   function handleTag () {
     console.log('clicked label');
   }
-  function handleClick () {
-    console.log('deleted album');
-  }
-  function handlePlay () {
-    console.log('clicked play');
+  function handleDelete (album) {
+    console.log('deleted album',album);
   }
   function firstFourPhotos (photos) {
     return photos.filter((item, idx) => idx < 4);
@@ -31,8 +31,8 @@ function AlbumCard({album}){
       <h3>{album.title}</h3>
       <p>{album.description}</p>
       <TagButtons label='Tag1' handle={handleTag} />
-      <PlayButton handle={ handlePlay }/>
-      <DeleteButton handle={ handleClick } />
+      <PlayButton handle={ handlePlay } album={album} />
+      <DeleteButton handle={ handleDelete } album={album} />
     </div>
   </div>);
 }
@@ -47,7 +47,8 @@ AlbumCard.propTypes = {
         name:PropTypes.string
       })
     )
-  }).isRequired
+  }).isRequired,
+  handlePlay: PropTypes.func
 }
 
 export default AlbumCard;
