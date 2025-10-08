@@ -36,6 +36,7 @@ function App() {
   //     setCurrentView(newView);
   //   }
   // };
+
   // Estado para el dialog de confirmacion de eliminacion de album
   const [isConfirmDialogOpen, setIsConfirmDialogOpen] = useState(null);
 

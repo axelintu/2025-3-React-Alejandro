@@ -1,5 +1,6 @@
 const albumsData = [
   {
+    "id": "1",
     "title": "City Nights",
     "description": "Luces, neón y lluvia en la ciudad.",
     "images": [
@@ -14,6 +15,7 @@ const albumsData = [
     ]
   },
   {
+    "id": "2",
     "title": "Sierra Fría",
     "description": "Bosques y mañanas frías cerca de Aguascalientes.",
     "images": [
@@ -24,6 +26,7 @@ const albumsData = [
     ]
   },
   {
+    "id": "3",
     "title": "Road Trip",
     "description": "Kilómetros de carretera, playlist infinita.",
     "images": [
@@ -34,6 +37,7 @@ const albumsData = [
     ]
   },
   {
+    "id": "4",
     "title": "Cafecito & Código",
     "description": "Latte art y commits con cafeína.",
     "images": [
@@ -44,6 +48,7 @@ const albumsData = [
     ]
   },
   {
+    "id": "5",
     "title": "Minimal Home",
     "description": "Luz, sombras y espacios tranquilos.",
     "images": [
@@ -54,6 +59,7 @@ const albumsData = [
     ]
   },
   {
+    "id": "6",
     "title": "Industrial Vibes",
     "description": "Metal, textura y líneas fuertes.",
     "images": [
@@ -64,6 +70,7 @@ const albumsData = [
     ]
   },
   {
+    "id": "7",
     "title": "Foodie Tour",
     "description": "De antojitos a postres épicos.",
     "images": [
@@ -74,6 +81,7 @@ const albumsData = [
     ]
   },
   {
+    "id": "8",
     "title": "Nature Macro",
     "description": "Texturas diminutas a lo grande.",
     "images": [
@@ -84,6 +92,7 @@ const albumsData = [
     ]
   },
   {
+    "id": "9",
     "title": "Arquitectura MX",
     "description": "Sombras, arcos y color.",
     "images": [
@@ -94,6 +103,7 @@ const albumsData = [
     ]
   },
   {
+    "id": "10",
     "title": "Deportes & Acción",
     "description": "Movimiento congelado en el tiempo.",
     "images": [
