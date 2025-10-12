@@ -6,6 +6,15 @@ import initialTasks from './data/initialTasks';
 
 function App() {
   const completedCount = initialTasks.filter(task => task.completed).length;
+  function addItem () {
+    console.log('added task')
+  }
+  function deleteTask(task) {
+    console.log('deleted', task)
+  }
+  function toggleCompleted() {
+    console.log('toggled completed')
+  }
   return (
     <div className="App">
       <header className="header">
@@ -13,9 +22,14 @@ function App() {
       </header>
 
       <FilterBar></FilterBar>
-      <TodoForm></TodoForm>
-      <TodoList tasks={initialTasks}></TodoList>
-      
+      <TodoForm 
+        onAdd={addItem}
+      ></TodoForm>
+      <TodoList 
+        todos={initialTasks} 
+        onToggle={toggleCompleted} 
+        onDelete={deleteTask}
+      ></TodoList>
       <div className='status'>
         { completedCount } de { initialTasks.length} Completadas
       </div>

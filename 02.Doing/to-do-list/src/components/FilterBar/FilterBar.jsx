@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import './FilterBar.css';
 
-function FilterBar ({}) {
+function FilterBar ({filter, onFilterChange}) {
   return (
   <div className='filters'>
     <nav className="filter-navigation">
@@ -13,5 +13,9 @@ function FilterBar ({}) {
     </nav>
   </div>
   )
+}
+FilterBar.propTypes = {
+  filter: PropTypes.string.isRequired,
+  onFilterChange: PropTypes.func
 }
 export default FilterBar;

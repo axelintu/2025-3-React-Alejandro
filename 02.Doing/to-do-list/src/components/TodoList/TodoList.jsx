@@ -2,21 +2,31 @@ import PropTypes from 'prop-types';
 import TodoItem from '../TodoItem';
 import './TodoList.css';
 
-function TodoList ({tasks}) {
-  function deleteTask(task) {
-    console.log('deleted', task)
-  }
+function TodoList ({todos, onToggle, onDelete}) {
   function showTasks(task, key) {
     return (
       <div key={key}>
-        <TodoItem task={task} onDelete={deleteTask}></TodoItem>
+        <TodoItem 
+          todo={task} 
+          onDelete={onDelete}
+          onToggle={onToggle}
+        ></TodoItem>
       </div>
     )
   }
   return (
     <div className="tasks">
-      { tasks.map(showTasks) }
+      { todos.map(showTasks) }
     </div>
   )
+}
+TodoList.propTypes = {
+  todos: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      title: PropTypes.string.isRequired,
+      completed: PropTypes.bool.isRequired
+    })
+  ).isRequired
 }
 export default TodoList;
