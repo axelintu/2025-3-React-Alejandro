@@ -30,10 +30,17 @@ function App() {
         <h1>To Do List</h1>
       </header>
       <div className='filters'>
-
+        <nav className="filter-navigation">
+          <ul>
+            <li><button type="button">Todas</button></li>
+            <li><button type="button">Pendientes</button></li>
+            <li><button type="button">Completadas</button></li>
+          </ul>
+        </nav>
       </div>
       <div className="new-task">
         <input type="text" name="newTask" id="newTaskInput" className='new-task-input' />
+        <button type="button"><span>Agregar nueva tarea</span></button>
       </div>
       <div className="tasks">
         { initialTasks.map(showTasks) }
