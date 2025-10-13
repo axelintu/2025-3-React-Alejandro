@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './App.css';
 import FilterBar from './components/FilterBar';
 import TodoForm from './components/TodoForm';
@@ -5,6 +6,15 @@ import TodoList from './components/TodoList';
 import initialTasks from './data/initialTasks';
 
 function App() {
+
+  // Filter functionality
+  const [filter, setFilter] = useState('aaba');
+  const allFilters = {
+    all: 'Todas',
+    active: 'Pendientes',
+    done: 'Completadas'
+  }
+  // Status Count functionality
   const completedCount = initialTasks.filter(task => task.completed).length;
   function addItem () {
     console.log('added task')
@@ -15,13 +25,17 @@ function App() {
   function toggleCompleted() {
     console.log('toggled completed')
   }
+
   return (
     <div className="App">
       <header className="header">
         <h1>To Do List</h1>
       </header>
 
-      <FilterBar></FilterBar>
+      <FilterBar 
+      filter={filter}
+      onFilterChange={setFilter}
+      allFilters={allFilters} />
       <TodoForm 
         onAdd={addItem}
       ></TodoForm>

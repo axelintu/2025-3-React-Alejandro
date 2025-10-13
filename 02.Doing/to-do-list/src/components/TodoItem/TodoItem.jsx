@@ -6,11 +6,14 @@ function TodoItem({todo, onDelete, onToggle}) {
   <div>
     <input 
       type="checkbox" 
-      defaultChecked={todo.completed}
+      defaultChecked={todo.done}
       onClick={onToggle}
+      id={todo.id}
     ></input>
-    <span>{todo.id}</span> - 
-    <span>{todo.title}</span>
+    <label htmlFor={todo.id}>
+      <span>{todo.id}</span> - 
+      <span>{todo.title}</span>
+    </label>
     <button 
       type='button' 
       aria-label='delete' 
@@ -25,7 +28,7 @@ TodoItem.propTypes = {
   todo: PropTypes.shape({
     id: PropTypes.number.isRequired,
     title: PropTypes.string.isRequired,
-    completed: PropTypes.bool.isRequired
+    done: PropTypes.bool.isRequired
   }).isRequired,
   onDelete: PropTypes.func.isRequired,
   onToggle: PropTypes.func.isRequired
