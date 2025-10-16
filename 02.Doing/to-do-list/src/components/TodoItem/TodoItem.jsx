@@ -7,10 +7,14 @@ function TodoItem({todo, onDelete, onToggle}) {
     <input 
       type="checkbox" 
       defaultChecked={todo.done}
-      onClick={onToggle}
+      onChange={()=>onToggle(todo.id)}
       id={todo.id}
     ></input>
-    <label htmlFor={todo.id}>
+    <label 
+      htmlFor={todo.id} 
+      className={
+        todo.done ? 'text-done' : ''
+      }>
       <span>{todo.id}</span> - 
       <span>{todo.title}</span>
     </label>

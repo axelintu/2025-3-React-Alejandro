@@ -1,29 +1,46 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import FilterBar from './components/FilterBar';
 import TodoForm from './components/TodoForm';
 import TodoList from './components/TodoList';
 import initialTasks from './data/initialTasks';
+import StatusBar from './components/StatusBar';
 
 function App() {
-
-  // Filter functionality
-  const [filter, setFilter] = useState('aaba');
+  const [tasks,setTasks] = useState(initialTasks);
+  const [filter, setFilter] = useState('all');
+  function createNewId() {
+    let newIdVar = 0;
+    tasks.map((task)=>{
+      newIdVar = newIdVar > task.id ? newIdVar : task.id;
+    })
+    return (newIdVar)+1;
+  }
   const allFilters = {
     all: 'Todas',
     active: 'Pendientes',
     done: 'Completadas'
   }
   // Status Count functionality
-  const completedCount = initialTasks.filter(task => task.completed).length;
-  function addItem () {
-    console.log('added task')
+  // const completedCount = tasks.filter(task => task.done).length;
+  function addNewTask (newTitle) {
+    const id = createNewId();
+    const newTask = {
+      id: id,
+      title: newTitle,
+      done: false
+    };
+    setTasks((prevTasks)=>[...prevTasks, newTask]);
   }
   function deleteTask(task) {
     console.log('deleted', task)
   }
-  function toggleCompleted() {
-    console.log('toggled completed')
+  function toggleTask(taskId) {
+    setTasks((prevTasks) => 
+      prevTasks.map((task) => {
+        return task.id === taskId ? {...task, done: !task.done } : task
+      })
+    )
   }
 
   return (
@@ -31,22 +48,21 @@ function App() {
       <header className="header">
         <h1>To Do List</h1>
       </header>
-
       <FilterBar 
       filter={filter}
       onFilterChange={setFilter}
       allFilters={allFilters} />
       <TodoForm 
-        onAdd={addItem}
+        onAdd={addNewTask}
       ></TodoForm>
       <TodoList 
-        todos={initialTasks} 
-        onToggle={toggleCompleted} 
+        todos={tasks} 
+        onToggle={toggleTask} 
         onDelete={deleteTask}
       ></TodoList>
-      <div className='status'>
-        { completedCount } de { initialTasks.length} Completadas
-      </div>
+      <StatusBar
+        tasks={tasks}>
+      </StatusBar>
     </div>
   );
 }
