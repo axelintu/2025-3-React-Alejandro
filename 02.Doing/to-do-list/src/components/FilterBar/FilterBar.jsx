@@ -1,14 +1,17 @@
 import { checkPropTypes, PropTypes } from 'prop-types';
 import { useEffect, useState } from 'react';
+import FilterButton from '../FilterButton/FilterButton';
 import './FilterBar.css';
 
 const filterBarPropTypes = {
   filter: PropTypes.oneOf(['all', 'active', 'done']).isRequired,
   onFilterChange: PropTypes.func,
-  allFilters: PropTypes.object.isRequired
+  allFilters: PropTypes.array.isRequired
 };
 function FilterBar ({filter, onFilterChange, allFilters}) {
+  console.log(filter);
   const [errorMsg, setErrorMsg] = useState('');
+  // const [currFilterLabel, setCurrFilterLabel] = (filter);
   
   useEffect(() => {
     let error = '';
@@ -27,18 +30,18 @@ function FilterBar ({filter, onFilterChange, allFilters}) {
   return (
   <div className='filters'>
     <div>
-      Viendo las tareas: {allFilters[filter]}
+      Viendo las tareas: {filter.label}
     </div>
     <nav className="filter-navigation">
     {
-      Object.keys(allFilters).map((keyName,i)=>(
+      allFilters.map((currentFilter,i)=>(
         <button 
           type="button" 
           key={i} 
-          disabled={ filter === keyName } 
-          onClick={()=> {onFilterChange(keyName)}}
+          disabled={ filter.filterKey === currentFilter.filterKey } 
+          onClick={()=> {onFilterChange(currentFilter)}}
         >
-          {allFilters[keyName]}
+          {currentFilter.label}
         </button>
       ))}
     </nav>

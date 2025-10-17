@@ -7,19 +7,28 @@ import initialTasks from './data/initialTasks';
 import StatusBar from './components/StatusBar';
 
 function App() {
+  // Filtro
+  const allFilters = [
+    { filterKey: 'all',
+      label: 'Todas' 
+    },
+    {
+      filterKey: 'active',
+      label: 'Pendientes',
+    },
+    {
+      filterKey: 'done',
+      label: 'Completadas'
+    }
+  ];
   const [tasks,setTasks] = useState(initialTasks);
-  const [filter, setFilter] = useState('all');
+  const [filter, setFilter] = useState(allFilters[0]);
+
+  // Agregador de Tareas
   function createNewId() {
     let ids = tasks.map(task=>task.id).filter(Number);
     return (Math.max(...ids))+1;
   }
-  const allFilters = {
-    all: 'Todas',
-    active: 'Pendientes',
-    done: 'Completadas'
-  }
-  // Status Count functionality
-  // const completedCount = tasks.filter(task => task.done).length;
   function addNewTask (newTitle) {
     const id = createNewId();
     const newTask = {
@@ -29,6 +38,11 @@ function App() {
     };
     setTasks((prevTasks)=>[...prevTasks, newTask]);
   }
+
+  function useFilter(filter) {
+    setFilter(filter);
+  }
+  
   function deleteTask(task) {
     console.log('deleted', task)
   }
@@ -47,7 +61,7 @@ function App() {
       </header>
       <FilterBar 
       filter={filter}
-      onFilterChange={setFilter}
+      onFilterChange={useFilter}
       allFilters={allFilters} />
       <TodoForm 
         onAdd={addNewTask}

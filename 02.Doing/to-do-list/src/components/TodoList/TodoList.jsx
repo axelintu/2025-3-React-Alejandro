@@ -15,9 +15,15 @@ function TodoList ({todos, onToggle, onDelete}) {
     )
   }
   return (
-    <div className="tasks">
-      { todos.map(showTasks) }
-    </div>
+    todos ? (
+      <div className="tasks">
+        { todos.map(showTasks) }
+      </div>
+    ) : (
+      <div class="tasks-empty">
+        No hay tareas
+      </div>
+    )
   )
 }
 TodoList.propTypes = {
