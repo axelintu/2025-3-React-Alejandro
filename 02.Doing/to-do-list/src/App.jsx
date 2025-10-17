@@ -21,13 +21,29 @@ function App() {
       label: 'Completadas'
     }
   ];
-  const [tasks,setTasks] = useState(initialTasks);
+  const filterTasks = () => {
+    switch (filter.filterKey) {
+      case 'all':
+        return tasks;
+      case 'active':
+        return tasks.filter(task=> task.done === false);
+      case 'done':
+        return tasks.filter(task=> task.done === true);
+      default:
+        return tasks;
+    }
+  }
+  const [tasks, setTasks] = useState(initialTasks);
   const [filter, setFilter] = useState(allFilters[0]);
+  const [filteredTasks, setFilteredTasks] = useState(filterTasks());
+  useEffect(()=> {
+    setFilteredTasks(filterTasks);
+  },[tasks, filter])
 
   // Agregador de Tareas
   function createNewId() {
     let ids = tasks.map(task=>task.id).filter(Number);
-    return (Math.max(...ids))+1;
+    return ids.length === 0 ? 1 : (Math.max(...ids))+1;
   }
   function addNewTask (newTitle) {
     const id = createNewId();
@@ -44,7 +60,9 @@ function App() {
   }
   
   function deleteTask(task) {
-    console.log('deleted', task)
+    const newTasks = tasks.filter(origTask => origTask.id !== task.id);    
+    setTasks(newTasks);
+
   }
   function toggleTask(taskId) {
     setTasks((prevTasks) => 
@@ -67,7 +85,7 @@ function App() {
         onAdd={addNewTask}
       ></TodoForm>
       <TodoList 
-        todos={tasks} 
+        todos={filteredTasks} 
         onToggle={toggleTask} 
         onDelete={deleteTask}
       ></TodoList>

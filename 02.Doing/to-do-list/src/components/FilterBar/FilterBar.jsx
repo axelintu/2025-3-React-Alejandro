@@ -4,15 +4,15 @@ import FilterButton from '../FilterButton/FilterButton';
 import './FilterBar.css';
 
 const filterBarPropTypes = {
-  filter: PropTypes.oneOf(['all', 'active', 'done']).isRequired,
+  filter: PropTypes.shape({
+      filterKey: PropTypes.string.isRequired,
+      label: PropTypes.string.isRequired,
+  }).isRequired,
   onFilterChange: PropTypes.func,
   allFilters: PropTypes.array.isRequired
 };
 function FilterBar ({filter, onFilterChange, allFilters}) {
-  console.log(filter);
   const [errorMsg, setErrorMsg] = useState('');
-  // const [currFilterLabel, setCurrFilterLabel] = (filter);
-  
   useEffect(() => {
     let error = '';
     const props = { filter, onFilterChange, allFilters };

@@ -6,7 +6,7 @@ function TodoItem({todo, onDelete, onToggle}) {
   <div>
     <input 
       type="checkbox" 
-      defaultChecked={todo.done}
+      checked={todo.done}
       onChange={()=>onToggle(todo.id)}
       id={todo.id}
     ></input>

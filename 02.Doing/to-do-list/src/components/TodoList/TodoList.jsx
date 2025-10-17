@@ -15,12 +15,12 @@ function TodoList ({todos, onToggle, onDelete}) {
     )
   }
   return (
-    todos ? (
+    todos.length ? (
       <div className="tasks">
         { todos.map(showTasks) }
       </div>
     ) : (
-      <div class="tasks-empty">
+      <div className="tasks-empty">
         No hay tareas
       </div>
     )

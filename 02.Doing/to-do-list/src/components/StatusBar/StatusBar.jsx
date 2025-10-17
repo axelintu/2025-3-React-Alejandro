@@ -1,9 +1,12 @@
 import './StatusBar.css';
 
 export default function StatusBar ({tasks}) {
+  const pendientes = tasks.filter(task => task.done === false ).length;
+  const hechas = tasks.filter(task => task.done === true).length;
   return (
     <div className='status'>
-      { tasks.filter(task => task.done).length } de { tasks.length} Completadas
+      { pendientes + ' pendientes / '} 
+      { hechas + ' completadas'} 
     </div>
   )
 }
