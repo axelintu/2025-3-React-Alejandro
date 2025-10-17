@@ -10,11 +10,8 @@ function App() {
   const [tasks,setTasks] = useState(initialTasks);
   const [filter, setFilter] = useState('all');
   function createNewId() {
-    let newIdVar = 0;
-    tasks.map((task)=>{
-      newIdVar = newIdVar > task.id ? newIdVar : task.id;
-    })
-    return (newIdVar)+1;
+    let ids = tasks.map(task=>task.id).filter(Number);
+    return (Math.max(...ids))+1;
   }
   const allFilters = {
     all: 'Todas',
