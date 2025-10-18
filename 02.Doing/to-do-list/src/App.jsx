@@ -7,19 +7,30 @@ import initialTasks from './data/initialTasks';
 import StatusBar from './components/StatusBar';
 
 function App() {
+  const getFromStorage = (key, defaultValue) => {
+    try {
+      const item = localStorage.getItem(key);
+      return item ? JSON.parse(item) : defaultValue;
+    } catch (error) {
+      console.warn(`Error reading localStorage key "${key}":`, error);
+      return defaultValue;
+    }
+  };
+  const saveToStorage = (key, value) => {
+    try {
+      localStorage.setItem(key, JSON.stringify(value));
+    } catch (error) {
+      console.warn(`Error saving to localStorage key "${key}":`, error);
+    }
+  };
+
+  let startTasks = getFromStorage('reactToDoList-tasks',initialTasks);
+
   // Filtro
   const allFilters = [
-    { filterKey: 'all',
-      label: 'Todas' 
-    },
-    {
-      filterKey: 'active',
-      label: 'Pendientes',
-    },
-    {
-      filterKey: 'done',
-      label: 'Completadas'
-    }
+    { filterKey: 'all',    label: 'Todas'      },
+    { filterKey: 'active', label: 'Pendientes' },
+    { filterKey: 'done',   label: 'Completadas'}
   ];
   const filterTasks = () => {
     switch (filter.filterKey) {
@@ -33,12 +44,16 @@ function App() {
         return tasks;
     }
   }
-  const [tasks, setTasks] = useState(initialTasks);
+  const [tasks, setTasks] = useState(getFromStorage('reactToDoList-tasks',initialTasks));
   const [filter, setFilter] = useState(allFilters[0]);
   const [filteredTasks, setFilteredTasks] = useState(filterTasks());
   useEffect(()=> {
     setFilteredTasks(filterTasks);
   },[tasks, filter])
+  useEffect(()=>{
+    console.log('useEffect for',this);
+    saveToStorage('reactToDoList-tasks', tasks)
+  },[tasks]);
 
   // Agregador de Tareas
   function createNewId() {
