@@ -8,7 +8,6 @@ function TodoForm ({onAdd}) {
   function validateNewTask (newTask) {
     const newTaskTrimmed = newTask.trim();
     if (newTaskTrimmed.trim()==='') {
-      console.log('vacio', newTaskTrimmed, emptyTask);
       setEmptyTask(true);
     } else {
       setEmptyTask(false);

@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import TodoItem from '../TodoItem';
 import './TodoList.css';
 
-function TodoList ({todos, onToggle, onDelete}) {
+function TodoList ({todos, onToggle, onDelete, onSave}) {
   function showTasks(task, key) {
     return (
       <div key={key}>
@@ -10,6 +10,7 @@ function TodoList ({todos, onToggle, onDelete}) {
           todo={task} 
           onDelete={onDelete}
           onToggle={onToggle}
+          onSave={onSave}
         ></TodoItem>
       </div>
     )

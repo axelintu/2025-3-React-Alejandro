@@ -85,6 +85,11 @@ function App() {
       })
     )
   }
+  const saveEdited = (id, newTitle) => {
+    setTasks(tasks.map(task =>
+      task.id === id ? {...task, title : newTitle } : task
+    ));
+  }
 
   return (
     <div className="App">
@@ -102,6 +107,7 @@ function App() {
         todos={filteredTasks} 
         onToggle={toggleTask} 
         onDelete={deleteTask}
+        onSave={saveEdited}
       ></TodoList>
       <StatusBar
         tasks={tasks}>
