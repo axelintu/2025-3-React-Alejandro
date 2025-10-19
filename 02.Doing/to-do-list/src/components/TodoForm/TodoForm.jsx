@@ -16,9 +16,10 @@ function TodoForm ({onAdd}) {
   }
   return (
     <div className="new-task">
-      <div>
+      {/* <div>
         NewTask: '{newTask.trim()}'
       </div>
+      */}
       <input 
         type="text" 
         name="newTaskInput" 

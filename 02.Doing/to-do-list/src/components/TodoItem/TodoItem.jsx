@@ -2,37 +2,41 @@ import PropTypes from 'prop-types';
 import './TodoItem.css';
 import { useState } from 'react';
 
-function TodoItem({todo, onDelete, onToggle, onSave}) {
+function TodoItem({
+  todo,
+  onDelete,
+  onToggle,
+  onSave,
+  animatingDelete,
+  startDeleteAnimation,
+  endDeleteAnimationEnd,
+}) {
   const [editingTask, setEditingTask] = useState(false);
-  const [newTitle, setNewTitle] = useState('');
+  const [newTitle, setNewTitle] = useState("");
   const [emptyTitle, setEmptyTitle] = useState(false);
 
   const validateIfEmpty = (newTitle) => {
     const newTitleTrimmed = newTitle.trim();
-    if (newTitleTrimmed==='') {
+    if (newTitleTrimmed === "") {
       setEmptyTitle(true);
     } else {
       setEmptyTitle(false);
     }
-  }
+  };
   const editInput = (e) => {
     setEditingTask(true);
     setNewTitle(todo.title);
-    console.log(e);
-  }
+  };
   const saveEdit = (id, title) => {
     onSave(id, title);
     setEditingTask(false);
-  }
+  };
   const handleChange = (e) => {
     setNewTitle(e.target.value);
     validateIfEmpty(e.target.value);
-  }
-
-  
-  return(
-    editingTask ? (
-    <div className="task-item task-editing">
+  };
+  return editingTask ? (
+    <div className={`task-item task-editing`}>
       <input
         type="text"
         name={todo.id}
@@ -59,7 +63,7 @@ function TodoItem({todo, onDelete, onToggle, onSave}) {
       <button
         type="button"
         aria-label="delete"
-        disabled={newTitle.trim()===''}
+        disabled={newTitle.trim() === ""}
         onClick={() => {
           saveEdit(todo.id, newTitle);
         }}
@@ -69,32 +73,34 @@ function TodoItem({todo, onDelete, onToggle, onSave}) {
       {emptyTitle && <div role="alert">⚠️ El título no puede estar vacío</div>}
     </div>
   ) : (
-  <div className="task-item">
-    <input
-      type="checkbox"
-      checked={todo.done}
-      onChange={()=>onToggle(todo.id)}
-      id={todo.id}
-    ></input>
-    <label 
-      htmlFor={todo.id} 
-      onDoubleClick={editInput}
-      className={
-        todo.done ? 'text-done' : ''
-      }>
-      <span>{todo.id}</span> - 
-      <span>{todo.title}</span>
-    </label>
-    <button 
-      type='button' 
-      aria-label='delete' 
-      onClick={() => onDelete(todo)}
+    <div
+      className={`task-item`}
+      onTransitionEnd={() => {
+        endDeleteAnimationEnd(todo.id);
+      }}
     >
-      ❌<span style={{ fontSize: 0 }}>Delete</span>
-    </button>
-  </div>
-  )
-  )
+      <input
+        type="checkbox"
+        checked={todo.done}
+        onChange={() => onToggle(todo.id)}
+        id={todo.id}
+      ></input>
+      <label
+        htmlFor={todo.id}
+        onDoubleClick={editInput}
+        className={todo.done ? "text-done" : ""}
+      >
+        <span>{todo.id}</span> -<span>{todo.title}</span>
+      </label>
+      <button
+        type="button"
+        aria-label="delete"
+        onClick={() => startDeleteAnimation(todo.id)}
+      >
+        ❌<span style={{ fontSize: 0 }}>Borrar</span>
+      </button>
+    </div>
+  );
 }
 
 TodoItem.propTypes = {

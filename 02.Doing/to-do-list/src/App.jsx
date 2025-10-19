@@ -30,7 +30,7 @@ function App() {
     { filterKey: 'active', label: 'Pendientes' },
     { filterKey: 'done',   label: 'Completadas'}
   ];
-    const [tasks, setTasks] = useState(getFromStorage('reactToDoList-tasks',initialTasks));
+  const [tasks, setTasks] = useState(getFromStorage('reactToDoList-tasks',initialTasks));
   const [filter, setFilter] = useState(allFilters[0]);
   const [filteredTasks, setFilteredTasks] = useState(tasks);
 
@@ -74,9 +74,9 @@ function App() {
   }
   
   function deleteTask(task) {
+    console.log('deleting', task)
     const newTasks = tasks.filter(origTask => origTask.id !== task.id);    
     setTasks(newTasks);
-
   }
   function toggleTask(taskId) {
     setTasks((prevTasks) => 
@@ -86,9 +86,10 @@ function App() {
     )
   }
   const saveEdited = (id, newTitle) => {
-    setTasks(tasks.map(task =>
+    const newTasksEdited = tasks.map(task =>
       task.id === id ? {...task, title : newTitle } : task
-    ));
+    );
+    setTasks(newTasksEdited);
   }
 
   return (
