@@ -24,34 +24,33 @@ function App() {
     }
   };
 
-  let startTasks = getFromStorage('reactToDoList-tasks',initialTasks);
-
   // Filtro
   const allFilters = [
     { filterKey: 'all',    label: 'Todas'      },
     { filterKey: 'active', label: 'Pendientes' },
     { filterKey: 'done',   label: 'Completadas'}
   ];
-  const filterTasks = () => {
+    const [tasks, setTasks] = useState(getFromStorage('reactToDoList-tasks',initialTasks));
+  const [filter, setFilter] = useState(allFilters[0]);
+  const [filteredTasks, setFilteredTasks] = useState(tasks);
+
+  useEffect(()=> {
     switch (filter.filterKey) {
       case 'all':
-        return tasks;
+        setFilteredTasks(tasks);
+        break;
       case 'active':
-        return tasks.filter(task=> task.done === false);
+        setFilteredTasks(tasks.filter(task=> task.done === false));
+        break;
       case 'done':
-        return tasks.filter(task=> task.done === true);
+        setFilteredTasks(tasks.filter(task=> task.done === true));
+        break;
       default:
-        return tasks;
+        setFilteredTasks(tasks);
     }
-  }
-  const [tasks, setTasks] = useState(getFromStorage('reactToDoList-tasks',initialTasks));
-  const [filter, setFilter] = useState(allFilters[0]);
-  const [filteredTasks, setFilteredTasks] = useState(filterTasks());
-  useEffect(()=> {
-    setFilteredTasks(filterTasks);
-  },[tasks, filter])
+  },[tasks, filter]);
+
   useEffect(()=>{
-    console.log('useEffect for',this);
     saveToStorage('reactToDoList-tasks', tasks)
   },[tasks]);
 
