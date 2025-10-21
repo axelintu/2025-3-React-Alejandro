@@ -29,10 +29,7 @@ function FilterBar ({filter, onFilterChange, allFilters}) {
 
   return (
   <div className='filters'>
-    <div>
-      Viendo las tareas: {filter.label}
-    </div>
-    <nav className="filter-navigation">
+    <nav className="filter-navigation grid">
     {
       allFilters.map((currentFilter,i)=>(
         <button 
