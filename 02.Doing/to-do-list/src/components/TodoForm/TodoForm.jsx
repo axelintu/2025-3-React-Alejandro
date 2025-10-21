@@ -6,26 +6,25 @@ function TodoForm ({onAdd}) {
   const [newTask, setNewTask] = useState('');
   const [emptyTask, setEmptyTask] = useState(false);
   function validateNewTask (newTask) {
-    const newTaskTrimmed = newTask.trim();
-    if (newTaskTrimmed.trim()==='') {
+    // const newTaskTrimmed = newTask;
+    if (newTask.trim()==='') {
       setEmptyTask(true);
     } else {
       setEmptyTask(false);
-      onAdd(newTaskTrimmed);
+      onAdd(newTask.trim());
+      setNewTask('');
     }
   }
   return (
-    <div className="new-task">
-      {/* <div>
-        NewTask: '{newTask.trim()}'
-      </div>
-      */}
+    <div className="new-task" role="group">
       <input 
+        aria-invalid={newTask.trim()===''}
+        placeholder='Nueva tarea'
         type="text" 
         name="newTaskInput" 
         id="newTaskInput" 
         className='new-task-input'
-        value={newTask.trim()} 
+        value={newTask} 
         onChange={(e) => {
           // console.log(e);
           setNewTask(e.target.value);
@@ -39,7 +38,7 @@ function TodoForm ({onAdd}) {
           validateNewTask(newTask.trim());
           // console.log(newTask)
         }}>
-          <span>Agregar nueva tarea</span>
+          <span>Agregar</span>
       </button>
       {emptyTask && <div role="alert">
         ⚠️ El título no puede estar vacío

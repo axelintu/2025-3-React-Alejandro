@@ -74,7 +74,7 @@ function App() {
   }
   
   function deleteTask(task) {
-    console.log('deleting', task)
+    // console.log('deleting', task)
     const newTasks = tasks.filter(origTask => origTask.id !== task.id);    
     setTasks(newTasks);
   }
@@ -93,7 +93,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="App container-fluid">
       <header className="header">
         <h1>To Do List</h1>
       </header>

@@ -4,17 +4,14 @@ import { useState } from 'react';
 
 function TodoItem({
   todo,
-  onDelete,
   onToggle,
   onSave,
-  animatingDelete,
-  startDeleteAnimation,
-  endDeleteAnimationEnd,
+  setDeleting
 }) {
   const [editingTask, setEditingTask] = useState(false);
   const [newTitle, setNewTitle] = useState("");
   const [emptyTitle, setEmptyTitle] = useState(false);
-
+  
   const validateIfEmpty = (newTitle) => {
     const newTitleTrimmed = newTitle.trim();
     if (newTitleTrimmed === "") {
@@ -36,12 +33,23 @@ function TodoItem({
     validateIfEmpty(e.target.value);
   };
   return editingTask ? (
-    <div className={`task-item task-editing`}>
+    <div className={`task-item task-editing`} role="group">
+      <span 
+      className={`task-checkbox${todo.done ? ' checked': ''}`}>
+        <input
+          type="checkbox"
+          disabled={true}
+          checked={todo.done}
+          id={`non-edit-${todo.id}`}
+        ></input>
+      </span>
       <input
+        className='task-label'
         type="text"
         name={todo.id}
         id={todo.id}
-        defaultValue={todo.title}
+        aria-invalid={newTitle.trim()===''}
+        // defaultValue={todo.title}
         value={newTitle}
         onChange={handleChange}
         onKeyDown={(e) => {
@@ -60,7 +68,13 @@ function TodoItem({
           }
         }}
       />
+      {emptyTitle && <small 
+        className='task-new-alert' 
+        role="alert"
+        aria-invalid='true'
+        ><span>⚠️</span> El título no puede estar vacío</small>}
       <button
+        className='task-edit-save'
         type="button"
         aria-label="delete"
         disabled={newTitle.trim() === ""}
@@ -70,34 +84,37 @@ function TodoItem({
       >
         Guardar
       </button>
-      {emptyTitle && <div role="alert">⚠️ El título no puede estar vacío</div>}
     </div>
   ) : (
     <div
       className={`task-item`}
-      onTransitionEnd={() => {
-        endDeleteAnimationEnd(todo.id);
-      }}
     >
-      <input
-        type="checkbox"
-        checked={todo.done}
-        onChange={() => onToggle(todo.id)}
-        id={todo.id}
-      ></input>
+      <label 
+      className={`task-checkbox${todo.done ? ' checked': ''}`}>
+        <input
+          type="checkbox"
+          checked={todo.done}
+          onChange={() => onToggle(todo.id)}
+          id={todo.id}
+        ></input>
+      </label>
       <label
+        
         htmlFor={todo.id}
         onDoubleClick={editInput}
-        className={todo.done ? "text-done" : ""}
+        className={`task-label ${todo.done ? "text-done" : ""}`}
       >
-        <span>{todo.id}</span> -<span>{todo.title}</span>
+        <span>{todo.title}</span>
       </label>
       <button
+      className='task-delete-button'
         type="button"
         aria-label="delete"
-        onClick={() => startDeleteAnimation(todo.id)}
+        onClick={() => {
+          setDeleting(todo)
+        }}
       >
-        ❌<span style={{ fontSize: 0 }}>Borrar</span>
+        &times;<span style={{ fontSize: 0 }}>Borrar</span>
       </button>
     </div>
   );

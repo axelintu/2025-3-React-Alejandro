@@ -1,6 +1,11 @@
+:root {
+  --task-height: 40px;
+}
 .tasks {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
+  line-height: 40px;
+  width: 100%;
 }
 @keyframes fadeInSlideUp {
   from {
@@ -10,14 +15,14 @@
   }
   to {
     opacity: 1;
-    height: 25px;
+    height: 40px;
     transform: translateY(0);
   }
 }
 @keyframes fadeOut {
   from {
     opacity: 1;
-    height: 25px;
+    height: 40px;
     transform: translateY(0);
   }
   to {
@@ -26,10 +31,18 @@
     transform: translateY(-20px);
   }
 }
-
-.task-item-container.new-item {
-  animation: fadeInSlideUp 0.3s ease-out forwards;
+.task-item-container {
+  /* height: var(--task-height); */
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: none;
+  border-right: none;
 }
+.task-item-container + .task-item-container {
+  border-top: none;
+}
+
 .task-item-container.new-item.deleting {
-  animation: fadeOut 0.3s ease-out backwards;
+  /* animation: fadeOut 0.3s ease-out backwards; */
+  height: 0;
+  opacity: 0;
 }

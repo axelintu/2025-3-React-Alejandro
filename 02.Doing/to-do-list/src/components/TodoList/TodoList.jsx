@@ -1,45 +1,40 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import TodoItem from '../TodoItem';
 import './TodoList.css';
 
 function TodoList ({todos, onToggle, onDelete, onSave}) {
-  const [animatingDelete, setAnimatingDelete] = useState([]);
-  const startDeleteAnimation = (id) => {
-    setAnimatingDelete([...animatingDelete, id]);
-    console.log(animatingDelete);
-    console.log(animatingDelete.includes(id));
-    
-    // onDelete(todo);
-  }
-  const endDeleteAnimationEnd = (todo) => {
-    console.log(animatingDelete);
-    onDelete(todo);
-    setAnimatingDelete(animatingDelete.filter((animatingId) => animatingId !== todo.id));
+  const [localTasks, setLocalTasks] = useState(todos);
+
+  useEffect(()=>{
+    setLocalTasks(todos)
+  },[todos])
+  
+  const setDeleting = (item) => {
+    const toDeleteItem = todos.map(task =>
+      task.id === item.id ? {...task, deleting : true } : task
+    );
+    setLocalTasks(toDeleteItem);
+    onDelete(item);
   }
 
   return (
     todos.length ? (
       <div className="tasks">
-        { todos.map((task, key) => {
+        { localTasks.map((task, key) => {
     return (
       <div
         key={key}
         className={`task-item-container new-item ${
-          animatingDelete.includes(task.id) ? " deleting" : ""
+          task.deleting  ? " deleting" : ""
         } `}
-        onAnimationEnd={()=>{
-          endDeleteAnimationEnd(task)
-        }}
       >
         <TodoItem
           todo={task}
           onDelete={onDelete}
           onToggle={onToggle}
           onSave={onSave}
-          startDeleteAnimation={startDeleteAnimation}
-          endDeleteAnimationEnd={endDeleteAnimationEnd}
-          animatingDelete={animatingDelete}
+          setDeleting={setDeleting}
         ></TodoItem>
       </div>
     );
