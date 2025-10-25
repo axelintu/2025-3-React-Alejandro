@@ -137,3 +137,7 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+02.Doing/gallery-app-class/*
+02.Doing/ecommerce-app-class/*
+02.Doing/ecommerce-app-cart/*
