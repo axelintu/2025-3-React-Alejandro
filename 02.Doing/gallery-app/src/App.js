@@ -13,15 +13,33 @@ import './utils/localStorage';
 import { getFromStorage, saveToStorage } from './utils/localStorage';
 
 function App() {
+  //
   const [currentView, setCurrentView] = useState('albums');
+
   // Get data for albums and photos from localStorage or from files
-  const [albums, setAlbums] = useState(
-    () => getFromStorage('gallery-albums', albumsData) 
-  );
-  const [photos, setPhotos] = useState(
-    () => getFromStorage('gallery-photos', photosData)
-  );
+  const [albums, setAlbums] = useState(() => getFromStorage('gallery-albums', albumsData));
+  const [photos, setPhotos] = useState(() => getFromStorage('gallery-photos', photosData));
   
+  // Estado para el modal del carrusel de álbum
+  const [isCarouselModalOpen, setIsCarouselModalOpen] = useState(false);
+  const [carouselAlbum, setCarouselAlbum] = useState([]);
+
+  // Estado para el dialog de confirmacion de eliminacion de album
+  const [isConfirmDialogOpen, setIsConfirmDialogOpen] = useState(null);
+
+  const [albumToDelete, setAlbumToDelete] = useState(null);
+  const [photoToDelete, setPhotoToDelete] = useState(null);
+
+  
+  // useEffect para guardar en localStorage cuando cambian los datos
+  useEffect(() => {
+    saveToStorage("gallery-albums", albums);
+  }, [albums]);
+
+  useEffect(() => {
+    saveToStorage("gallery-photos", photos);
+  }, [photos]);
+
   // const handleViewChange = (newView) => {
   //   // Si es una acción de crear/editar, abrir modal en lugar de cambiar vista
   //   if (newView === "newAlbum") {
@@ -37,15 +55,7 @@ function App() {
   //   }
   // };
 
-  // Estado para el dialog de confirmacion de eliminacion de album
-  const [isConfirmDialogOpen, setIsConfirmDialogOpen] = useState(null);
 
-  const [albumToDelete, setAlbumToDelete] = useState(null);
-  const [photoToDelete, setPhotoToDelete] = useState(null);
-
-  // Estado para el modal del carrusel de álbum
-  const [isCarouselModalOpen, setIsCarouselModalOpen] = useState(false);
-  const [carouselAlbum, setCarouselAlbum] = useState([]);
 
   const handlePlayAlbum = (album) => {
     setIsCarouselModalOpen(true);
