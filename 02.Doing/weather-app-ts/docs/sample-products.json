@@ -1,0 +1,1027 @@
+[
+  {
+    "_id": "68b0d4189b825d20ce1e573e",
+    "name": "Mochila repelente al agua",
+    "description": {
+      "text": "Mochila con un acabado que repele el agua. Las correas están diseñadas con un almohadillado que reducen la carga sobre los hombros. Fabricada con poliéster reciclado. Con compartimento para portátil.",
+      "features": [
+        "Exterior: 100% poliéster (100% poliéster reciclado)",
+        "Forro: 100% poliéster",
+        "Malla: 100% poliéster",
+        "Capacidad: 20L"
+      ]
+    },
+    "price": 30,
+    "stock": 40,
+    "imagesUrl": [
+      "/img/products/muji-mochila-negra-1.jpg",
+      "/img/products/muji-mochila-negra-2.jpg"
+    ],
+    "categories": [
+      "Viaje",
+      "Hombre",
+      "Mujer",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e573f",
+    "name": "Bolígrafo de gel 0.5mm (Negro)",
+    "description": {
+      "text": "Bolígrafo de tinta de gel con un mecanismo que evita que la tinta fluya en la dirección incorrecta, reduciendo la posibilidad de que se seque. Punta de 0.5mm.",
+      "features": [
+        "Tinta: Gel (Negro)",
+        "Punta: 0.5mm",
+        "Material: Polipropileno",
+        "Recargable"
+      ]
+    },
+    "price": 2,
+    "stock": 500,
+    "imagesUrl": [
+      "/img/products/muji-boli-gel-negro-1.jpg"
+    ],
+    "categories": [
+      "Papelería",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5740",
+    "name": "Difusor de aromas (Grande)",
+    "description": {
+      "text": "Utiliza ondas ultrasónicas para vaporizar el agua y el aceite esencial, produciendo una niebla fresca, seca y aromática. Dispone de luz ambiental ajustable.",
+      "features": [
+        "Capacidad: 300ml",
+        "Modos: 4 (30/60/120/180 min)",
+        "Luz: 2 intensidades",
+        "Material: PP"
+      ]
+    },
+    "price": 70,
+    "stock": 80,
+    "imagesUrl": [
+      "/img/products/muji-difusor-grande-1.jpg",
+      "/img/products/muji-difusor-grande-2.jpg"
+    ],
+    "categories": [
+      "Hogar",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5741",
+    "name": "Sofá 2 plazas (Funda gris)",
+    "description": {
+      "text": "Sofá de estructura compacta con cojines de plumas y uretano para una sentada cómoda. La funda de algodón gris es extraíble y lavable.",
+      "features": [
+        "Dimensiones: 160cm (Ancho) x 85cm (Prof.) x 75cm (Alto)",
+        "Material Estructura: Madera de fresno",
+        "Material Funda: 100% Algodón",
+        "Plazas: 2"
+      ]
+    },
+    "price": 499,
+    "stock": 15,
+    "imagesUrl": [
+      "/img/products/muji-sofa-gris-1.jpg"
+    ],
+    "categories": [
+      "Muebles",
+      "Hogar"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5742",
+    "name": "Camiseta de algodón orgánico Cuello V (Mujer)",
+    "description": {
+      "text": "Camiseta básica de manga corta y cuello en V, fabricada con algodón orgánico suave al tacto y respetuoso con la piel. Patrón ajustado.",
+      "features": [
+        "Material: 100% Algodón orgánico",
+        "Corte: Ajustado",
+        "Cuello: V",
+        "Color: Blanco"
+      ]
+    },
+    "price": 13,
+    "stock": 210,
+    "imagesUrl": [
+      "/img/products/muji-camiseta-mujer-blanca-1.jpg"
+    ],
+    "categories": [
+      "Mujer"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5743",
+    "name": "Camisa Oxford (Hombre)",
+    "description": {
+      "text": "Camisa de corte clásico fabricada en tejido Oxford de algodón resistente. Tratada con un lavado para un acabado más suave. Botón en el cuello (Button-down).",
+      "features": [
+        "Material: 100% Algodón",
+        "Corte: Regular",
+        "Color: Azul claro",
+        "Bolsillo en el pecho"
+      ]
+    },
+    "price": 30,
+    "stock": 120,
+    "imagesUrl": [
+      "/img/products/muji-camisa-oxford-hombre-1.jpg"
+    ],
+    "categories": [
+      "Hombre"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5744",
+    "name": "Maleta de policarbonato con bloqueo de ruedas (Mediana)",
+    "description": {
+      "text": "Maleta rígida fabricada en policarbonato ligero y duradero. Dispone de 4 ruedas dobles silenciosas con un práctico sistema de bloqueo. Asa regulable.",
+      "features": [
+        "Material: Policarbonato",
+        "Capacidad: 63L",
+        "Peso: 3.5kg",
+        "Cierre: TSA",
+        "Bloqueo de ruedas"
+      ]
+    },
+    "price": 179,
+    "stock": 30,
+    "imagesUrl": [
+      "/img/products/muji-maleta-mediana-1.jpg",
+      "/img/products/muji-maleta-mediana-2.jpg"
+    ],
+    "categories": [
+      "Viaje"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5745",
+    "name": "Cuaderno A5 (Pautado)",
+    "description": {
+      "text": "Cuaderno de anillas con cubiertas de polipropileno semitransparentes. Papel de alta calidad que evita que la tinta traspase.",
+      "features": [
+        "Tamaño: A5",
+        "Formato: Pautado (Rayas)",
+        "Hojas: 80",
+        "Material Cubierta: PP"
+      ]
+    },
+    "price": 4,
+    "stock": 300,
+    "imagesUrl": [
+      "/img/products/muji-cuaderno-a5-1.jpg"
+    ],
+    "categories": [
+      "Papelería"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5746",
+    "name": "Estantería de módulos (Madera, 3x2)",
+    "description": {
+      "text": "Sistema de estanterías modular abierto, fabricado en madera de roble. Ideal para organizar libros o como separador de ambientes.",
+      "features": [
+        "Material: Chapa de roble",
+        "Dimensiones: 120cm (Ancho) x 40cm (Prof.) x 80cm (Alto)",
+        "Configuración: 3 columnas, 2 filas"
+      ]
+    },
+    "price": 250,
+    "stock": 25,
+    "imagesUrl": [
+      "/img/products/muji-estanteria-madera-1.jpg"
+    ],
+    "categories": [
+      "Muebles",
+      "Hogar"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5747",
+    "name": "Almohada de cuello con microesferas",
+    "description": {
+      "text": "Almohada de viaje que se adapta perfectamente al cuello gracias a su relleno de microesferas. Funda de algodón suave y elástica. Se puede usar como cojín.",
+      "features": [
+        "Relleno: Microesferas de poliestireno",
+        "Funda: Algodón y poliéster",
+        "Cierre: Broche",
+        "Multiusos"
+      ]
+    },
+    "price": 25,
+    "stock": 150,
+    "imagesUrl": [
+      "/img/products/muji-almohada-cuello-1.jpg"
+    ],
+    "categories": [
+      "Viaje",
+      "Hogar",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5748",
+    "name": "Vaqueros 'Skinny' (Mujer)",
+    "description": {
+      "text": "Pantalones vaqueros con tejido elástico en 4 direcciones para una comodidad máxima y total libertad de movimiento. Corte ajustado (skinny fit).",
+      "features": [
+        "Material: 90% Algodón, 8% Poliéster, 2% Elastano",
+        "Corte: Skinny",
+        "Color: Azul oscuro"
+      ]
+    },
+    "price": 40,
+    "stock": 90,
+    "imagesUrl": [
+      "/img/products/muji-vaqueros-mujer-1.jpg"
+    ],
+    "categories": [
+      "Mujer"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5749",
+    "name": "Pijama de franela (Hombre)",
+    "description": {
+      "text": "Pijama de dos piezas fabricado en franela de algodón cepillada por ambos lados para una calidez y suavidad excepcionales. Patrón de cuadros.",
+      "features": [
+        "Material: 100% Algodón (Franela)",
+        "Diseño: Cuadros (Rojo y azul)",
+        "Incluye: Camisa de botones y pantalón"
+      ]
+    },
+    "price": 40,
+    "stock": 60,
+    "imagesUrl": [
+      "/img/products/muji-pijama-hombre-1.jpg"
+    ],
+    "categories": [
+      "Hombre",
+      "Hogar"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5750",
+    "name": "Set de notas adhesivas (Craft)",
+    "description": {
+      "text": "Set de notas adhesivas (post-it) en un práctico dispensador de cartón reciclado. Incluye varios tamaños y marcadores de página en color craft.",
+      "features": [
+        "Material: Papel y cartón reciclado",
+        "Incluye: 4 bloques de notas, 5 tiras marcadoras"
+      ]
+    },
+    "price": 5,
+    "stock": 200,
+    "imagesUrl": [
+      "/img/products/muji-notas-craft-1.jpg"
+    ],
+    "categories": [
+      "Papelería"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5751",
+    "name": "Almacenaje de acrílico (3 cajones)",
+    "description": {
+      "text": "Sistema de almacenaje transparente ideal para organizar maquillaje, joyería o material de oficina. Permite ver el contenido fácilmente. Apilable.",
+      "features": [
+        "Material: 100% Acrílico",
+        "Cajones: 3",
+        "Dimensiones: 17.5cm x 13cm x 9.5cm"
+      ]
+    },
+    "price": 20,
+    "stock": 110,
+    "imagesUrl": [
+      "/img/products/muji-acrilico-3cajones-1.jpg"
+    ],
+    "categories": [
+      "Hogar",
+      "Muebles",
+      "Papelería"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5752",
+    "name": "Zapatillas de lona unisex (Negro)",
+    "description": {
+      "text": "Zapatillas unisex con un diseño atemporal. Plantilla interior diseñada para reducir la fatiga. Exterior de lona de algodón con tratamiento repelente al agua.",
+      "features": [
+        "Material: Lona de algodón",
+        "Suela: Goma",
+        "Plantilla: Anatómica",
+        "Repelente al agua"
+      ]
+    },
+    "price": 35,
+    "stock": 180,
+    "imagesUrl": [
+      "/img/products/muji-zapatillas-lona-1.jpg"
+    ],
+    "categories": [
+      "Hombre",
+      "Mujer"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5753",
+    "name": "Neceser de viaje colgante",
+    "description": {
+      "text": "Neceser fabricado en poliéster ligero con un gancho para colgarlo en el baño. Múltiples compartimentos internos para organizar productos de aseo.",
+      "features": [
+        "Material: Poliéster",
+        "Gancho para colgar",
+        "Múltiples bolsillos internos",
+        "Cierre: Cremallera"
+      ]
+    },
+    "price": 18,
+    "stock": 130,
+    "imagesUrl": [
+      "/img/products/muji-neceser-colgante-1.jpg"
+    ],
+    "categories": [
+      "Viaje",
+      "Hogar",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5754",
+    "name": "Cama (Estructura de roble, Queen)",
+    "description": {
+      "text": "Estructura de cama baja fabricada en madera maciza de roble, aportando calidez al dormitorio. Diseño minimalista y duradero. Somier de láminas incluido.",
+      "features": [
+        "Material: Madera de roble maciza",
+        "Tamaño: Queen (160cm x 200cm)",
+        "Incluye: Somier de láminas"
+      ]
+    },
+    "price": 450,
+    "stock": 10,
+    "imagesUrl": [
+      "/img/products/muji-cama-roble-1.jpg"
+    ],
+    "categories": [
+      "Muebles",
+      "Hogar"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5755",
+    "name": "Aceite esencial (Lavanda)",
+    "description": {
+      "text": "Aceite esencial 100% puro de lavanda. Ideal para usar con el difusor de aromas para crear un ambiente relajante antes de dormir.",
+      "features": [
+        "Aroma: Lavanda",
+        "Contenido: 10ml",
+        "Origen: Francia",
+        "100% Puro"
+      ]
+    },
+    "price": 13,
+    "stock": 250,
+    "imagesUrl": [
+      "/img/products/muji-aceite-lavanda-1.jpg"
+    ],
+    "categories": [
+      "Hogar",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5756",
+    "name": "Estuche de lona (Gris)",
+    "description": {
+      "text": "Estuche de lona de algodón resistente con cremallera. Tamaño compacto pero espacioso, ideal para bolígrafos, lápices o como neceser pequeño.",
+      "features": [
+        "Material: Lona de algodón",
+        "Color: Gris",
+        "Dimensiones: 18cm x 5cm x 5cm"
+      ]
+    },
+    "price": 6,
+    "stock": 180,
+    "imagesUrl": [
+      "/img/products/muji-estuche-lona-1.jpg"
+    ],
+    "categories": [
+      "Papelería",
+      "Regalos",
+      "Viaje"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5757",
+    "name": "Bufanda de cachemira (Beige)",
+    "description": {
+      "text": "Bufanda unisex de gran tamaño fabricada en 100% cachemira, proporcionando una suavidad y calidez incomparables. Acabado liso.",
+      "features": [
+        "Material: 100% Cachemira",
+        "Dimensiones: 180cm x 30cm",
+        "Color: Beige"
+      ]
+    },
+    "price": 60,
+    "stock": 70,
+    "imagesUrl": [
+      "/img/products/muji-bufanda-cachemira-1.jpg"
+    ],
+    "categories": [
+      "Mujer",
+      "Hombre",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5758",
+    "name": "Almacenaje PP (Caja con tapa, L)",
+    "description": {
+      "text": "Caja de almacenaje de polipropileno semitransparente que permite apilarse de forma segura. Ideal para ropa, juguetes o documentos.",
+      "features": [
+        "Material: Polipropileno",
+        "Dimensiones: 40cm x 55cm x 30cm",
+        "Apilable",
+        "Incluye tapa"
+      ]
+    },
+    "price": 15,
+    "stock": 200,
+    "imagesUrl": [
+      "/img/products/muji-caja-pp-l-1.jpg"
+    ],
+    "categories": [
+      "Hogar",
+      "Muebles"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5759",
+    "name": "Paraguas plegable",
+    "description": {
+      "text": "Paraguas plegable y ligero, fácil de transportar. Estructura de aluminio y fibra de vidrio para mayor resistencia al viento. Apertura manual.",
+      "features": [
+        "Material: Poliéster",
+        "Estructura: Aluminio y fibra de vidrio",
+        "Peso: 150g"
+      ]
+    },
+    "price": 20,
+    "stock": 100,
+    "imagesUrl": [
+      "/img/products/muji-paraguas-1.jpg"
+    ],
+    "categories": [
+      "Viaje",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5760",
+    "name": "Grapadora sin grapas",
+    "description": {
+      "text": "Grapadora que une el papel mediante un sistema de plegado y prensado, sin necesidad de usar grapas metálicas. Une hasta 5 hojas.",
+      "features": [
+        "Capacidad: 5 hojas",
+        "Material: Plástico ABS",
+        "No requiere consumibles"
+      ]
+    },
+    "price": 10,
+    "stock": 120,
+    "imagesUrl": [
+      "/img/products/muji-grapadora-sin-grapas-1.jpg"
+    ],
+    "categories": [
+      "Papelería",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5761",
+    "name": "Sudadera con capucha (Hombre)",
+    "description": {
+      "text": "Sudadera de algodón grueso con capucha (hoodie). Interior cepillado para mayor suavidad. Corte relajado.",
+      "features": [
+        "Material: 100% Algodón",
+        "Corte: Relajado",
+        "Bolsillo: Canguro",
+        "Color: Gris jaspeado"
+      ]
+    },
+    "price": 35,
+    "stock": 140,
+    "imagesUrl": [
+      "/img/products/muji-sudadera-hombre-1.jpg"
+    ],
+    "categories": [
+      "Hombre"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5762",
+    "name": "Falda larga de lino (Mujer)",
+    "description": {
+      "text": "Falda larga (maxi) con caída, fabricada en lino lavado para una textura suave y fresca. Cintura elástica para mayor comodidad.",
+      "features": [
+        "Material: 100% Lino",
+        "Corte: Evasé (A-line)",
+        "Cintura: Elástica",
+        "Color: Azul marino"
+      ]
+    },
+    "price": 50,
+    "stock": 80,
+    "imagesUrl": [
+      "/img/products/muji-falda-lino-mujer-1.jpg"
+    ],
+    "categories": [
+      "Mujer"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5763",
+    "name": "Puf (Bean Bag) (Funda denim)",
+    "description": {
+      "text": "Puf que se adapta a la forma del cuerpo, proporcionando un asiento relajado. El relleno de microesferas finas ofrece una comodidad única. Funda de denim resistente.",
+      "features": [
+        "Material Funda: Algodón (Denim)",
+        "Relleno: Microesferas de poliestireno",
+        "Dimensiones: 65cm x 65cm x 43cm"
+      ]
+    },
+    "price": 150,
+    "stock": 40,
+    "imagesUrl": [
+      "/img/products/muji-puf-denim-1.jpg"
+    ],
+    "categories": [
+      "Muebles",
+      "Hogar",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5764",
+    "name": "Tijeras de precisión (Negras)",
+    "description": {
+      "text": "Tijeras de acero inoxidable con revestimiento de flúor antiadherente, evitando que la cinta adhesiva se pegue. Mangos ergonómicos.",
+      "features": [
+        "Material: Acero inoxidable y resina ABS",
+        "Revestimiento: Flúor antiadherente",
+        "Color: Negro"
+      ]
+    },
+    "price": 8,
+    "stock": 160,
+    "imagesUrl": [
+      "/img/products/muji-tijeras-negras-1.jpg"
+    ],
+    "categories": [
+      "Papelería",
+      "Hogar"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5765",
+    "name": "Juego de sábanas (Lino lavado, Queen)",
+    "description": {
+      "text": "Juego de cama completo (funda nórdica, sábana bajera y 2 fundas de almohada) de lino lavado. El lino es transpirable y se vuelve más suave con cada lavado.",
+      "features": [
+        "Material: 100% Lino lavado",
+        "Tamaño: Queen",
+        "Color: Blanco natural"
+      ]
+    },
+    "price": 180,
+    "stock": 35,
+    "imagesUrl": [
+      "/img/products/muji-sabanas-lino-1.jpg"
+    ],
+    "categories": [
+      "Hogar",
+      "Muebles"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5766",
+    "name": "Organizador de maleta (Set M)",
+    "description": {
+      "text": "Set de dos organizadores (cubos de equipaje) de malla ligera para clasificar y comprimir la ropa dentro de la maleta. Facilita hacer y deshacer el equipaje.",
+      "features": [
+        "Material: Poliéster",
+        "Tamaño: Mediano",
+        "Set: 2 piezas",
+        "Panel de malla"
+      ]
+    },
+    "price": 15,
+    "stock": 190,
+    "imagesUrl": [
+      "/img/products/muji-organizador-maleta-1.jpg"
+    ],
+    "categories": [
+      "Viaje",
+      "Hogar"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5767",
+    "name": "Calcetines (Pack 3) (Hombre)",
+    "description": {
+      "text": "Pack de 3 pares de calcetines de algodón elástico. Diseño en ángulo recto (90 grados) en el talón para evitar que se deslicen.",
+      "features": [
+        "Material: Algodón, Poliéster, Elastano",
+        "Talla: 41-45",
+        "Cantidad: 3 pares (Negro, Gris, Azul)"
+      ]
+    },
+    "price": 10,
+    "stock": 300,
+    "imagesUrl": [
+      "/img/products/muji-calcetines-hombre-1.jpg"
+    ],
+    "categories": [
+      "Hombre",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5768",
+    "name": "Jersey de lana cuello alto (Mujer)",
+    "description": {
+      "text": "Jersey de punto fino fabricado con lana merino lavable en casa, que no pica. Cuello alto (cisne) para mayor calidez.",
+      "features": [
+        "Material: 100% Lana Merino",
+        "Corte: Ajustado",
+        "Lavable a máquina",
+        "Color: Burdeos"
+      ]
+    },
+    "price": 40,
+    "stock": 95,
+    "imagesUrl": [
+      "/img/products/muji-jersey-mujer-burdeos-1.jpg"
+    ],
+    "categories": [
+      "Mujer"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5769",
+    "name": "Mesa de comedor (Roble)",
+    "description": {
+      "text": "Mesa de comedor de líneas sencillas fabricada en madera maciza de roble. Ideal para 4-6 personas. Acabado natural.",
+      "features": [
+        "Material: Roble macizo",
+        "Dimensiones: 150cm (Largo) x 80cm (Ancho)",
+        "Capacidad: 4-6 personas"
+      ]
+    },
+    "price": 350,
+    "stock": 12,
+    "imagesUrl": [
+      "/img/products/muji-mesa-comedor-1.jpg"
+    ],
+    "categories": [
+      "Muebles",
+      "Hogar"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5770",
+    "name": "Botella de viaje rellenable (PET, 50ml)",
+    "description": {
+      "text": "Botella pequeña de plástico PET transparente, ideal para llevar líquidos (champú, gel) en el equipaje de mano. Cumple con la normativa de aeropuertos.",
+      "features": [
+        "Material: PET",
+        "Capacidad: 50ml",
+        "Tapón: Rosca",
+        "Transparente"
+      ]
+    },
+    "price": 2,
+    "stock": 400,
+    "imagesUrl": [
+      "/img/products/muji-botella-viaje-1.jpg"
+    ],
+    "categories": [
+      "Viaje",
+      "Hogar"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5771",
+    "name": "Vaqueros 'Regular Fit' (Hombre)",
+    "description": {
+      "text": "Pantalones vaqueros de corte recto (regular fit) fabricados en denim de algodón orgánico con un toque de elasticidad para mayor comodidad.",
+      "features": [
+        "Material: 98% Algodón orgánico, 2% Elastano",
+        "Corte: Regular",
+        "Color: Azul índigo"
+      ]
+    },
+    "price": 40,
+    "stock": 110,
+    "imagesUrl": [
+      "/img/products/muji-vaqueros-hombre-1.jpg"
+    ],
+    "categories": [
+      "Hombre"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5772",
+    "name": "Silla de comedor (Haya)",
+    "description": {
+      "text": "Silla de diseño clásico y sencillo fabricada en madera de haya maciza. Asiento ergonómico curvado para mayor confort.",
+      "features": [
+        "Material: Haya maciza",
+        "Acabado: Natural",
+        "Apilable: No"
+      ]
+    },
+    "price": 99,
+    "stock": 40,
+    "imagesUrl": [
+      "/img/products/muji-silla-haya-1.jpg"
+    ],
+    "categories": [
+      "Muebles",
+      "Hogar"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5773",
+    "name": "Archivador de anillas (PP)",
+    "description": {
+      "text": "Archivador de 2 anillas tamaño A4 con cubierta flexible de polipropileno. Lomo personalizable.",
+      "features": [
+        "Tamaño: A4",
+        "Anillas: 2",
+        "Material: Polipropileno",
+        "Color: Translúcido"
+      ]
+    },
+    "price": 3,
+    "stock": 350,
+    "imagesUrl": [
+      "/img/products/muji-archivador-pp-1.jpg"
+    ],
+    "categories": [
+      "Papelería",
+      "Hogar"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5774",
+    "name": "Antifaz para dormir (Algodón)",
+    "description": {
+      "text": "Antifaz suave de algodón que bloquea la luz para ayudar a conciliar el sueño. Ideal para viajar o para casa. Goma elástica ajustable.",
+      "features": [
+        "Material: 100% Algodón",
+        "Bolsa de transporte incluida",
+        "Color: Gris"
+      ]
+    },
+    "price": 8,
+    "stock": 170,
+    "imagesUrl": [
+      "/img/products/muji-antifaz-1.jpg"
+    ],
+    "categories": [
+      "Viaje",
+      "Hogar"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5775",
+    "name": "Zapatillas de casa (Estilo hotel)",
+    "description": {
+      "text": "Zapatillas de casa ligeras, fabricadas en algodón tipo 'waffle'. Plegables e ideales para llevar de viaje o para invitados.",
+      "features": [
+        "Material: Algodón",
+        "Suela: EVA flexible",
+        "Lavables"
+      ]
+    },
+    "price": 7,
+    "stock": 220,
+    "imagesUrl": [
+      "/img/products/muji-zapatillas-casa-1.jpg"
+    ],
+    "categories": [
+      "Viaje",
+      "Hogar"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5776",
+    "name": "Set de lápices de colores (36)",
+    "description": {
+      "text": "Caja de 36 lápices de colores de alta calidad. Minas suaves y resistentes, fáciles de mezclar. Caja metálica.",
+      "features": [
+        "Cantidad: 36 colores",
+        "Cuerpo: Madera",
+        "Estuche: Metálico"
+      ]
+    },
+    "price": 20,
+    "stock": 90,
+    "imagesUrl": [
+      "/img/products/muji-lapices-36-1.jpg"
+    ],
+    "categories": [
+      "Papelería",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5777",
+    "name": "Toalla de algodón orgánico (Baño)",
+    "description": {
+      "text": "Toalla de baño de tamaño grande (70x140cm) fabricada con algodón orgánico de fibra larga, lo que la hace muy absorbente y duradera.",
+      "features": [
+        "Material: 100% Algodón orgánico",
+        "Dimensiones: 70cm x 140cm",
+        "Color: Gris claro"
+      ]
+    },
+    "price": 25,
+    "stock": 140,
+    "imagesUrl": [
+      "/img/products/muji-toalla-bano-1.jpg"
+    ],
+    "categories": [
+      "Hogar"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5778",
+    "name": "Perchero de pared (Madera)",
+    "description": {
+      "text": "Listón de madera de roble con 4 ganchos abatibles. Diseño minimalista que queda plano contra la pared cuando no se usa.",
+      "features": [
+        "Material: Madera de roble",
+        "Ganchos: 4 (abatibles)",
+        "Dimensiones: 45cm (Largo)"
+      ]
+    },
+    "price": 28,
+    "stock": 60,
+    "imagesUrl": [
+      "/img/products/muji-perchero-pared-1.jpg"
+    ],
+    "categories": [
+      "Muebles",
+      "Hogar"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5779",
+    "name": "Adaptador de viaje universal",
+    "description": {
+      "text": "Adaptador compacto que se desmonta en varias piezas para ser compatible con los enchufes de la mayoría de países (EU, UK, US, AUS).",
+      "features": [
+        "Compatibilidad: EU, UK, US, AUS",
+        "Diseño: Modular",
+        "No convierte voltaje"
+      ]
+    },
+    "price": 20,
+    "stock": 100,
+    "imagesUrl": [
+      "/img/products/muji-adaptador-viaje-1.jpg"
+    ],
+    "categories": [
+      "Viaje"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5780",
+    "name": "Bolígrafo de gel (Set 10 colores)",
+    "description": {
+      "text": "Pack de 10 bolígrafos de tinta de gel en colores variados. Punta de 0.5mm y cuerpo transparente.",
+      "features": [
+        "Tinta: Gel (10 colores)",
+        "Punta: 0.5mm",
+        "Estuche: PP"
+      ]
+    },
+    "price": 12,
+    "stock": 130,
+    "imagesUrl": [
+      "/img/products/muji-boli-gel-set-1.jpg"
+    ],
+    "categories": [
+      "Papelería",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5781",
+    "name": "Calcetines (Pack 3) (Mujer)",
+    "description": {
+      "text": "Pack de 3 pares de calcetines tobilleros de algodón elástico. Diseño en ángulo recto (90 grados) en el talón para un ajuste perfecto.",
+      "features": [
+        "Material: Algodón, Poliéster, Elastano",
+        "Talla: 36-40",
+        "Cantidad: 3 pares (Blanco, Beige, Negro)"
+      ]
+    },
+    "price": 10,
+    "stock": 280,
+    "imagesUrl": [
+      "/img/products/muji-calcetines-mujer-1.jpg"
+    ],
+    "categories": [
+      "Mujer",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5782",
+    "name": "Jersey de lana (Hombre)",
+    "description": {
+      "text": "Jersey de punto grueso con cuello redondo. Fabricado en lana de yak, conocida por su calidez y suavidad, similar a la cachemira.",
+      "features": [
+        "Material: 100% Lana de Yak",
+        "Corte: Regular",
+        "Color: Marrón"
+      ]
+    },
+    "price": 70,
+    "stock": 50,
+    "imagesUrl": [
+      "/img/products/muji-jersey-yak-hombre-1.jpg"
+    ],
+    "categories": [
+      "Hombre"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5783",
+    "name": "Pijama de franela (Mujer)",
+    "description": {
+      "text": "Pijama de dos piezas fabricado en franela de algodón cepillada. Cómodo y cálido. Patrón de cuadros suaves.",
+      "features": [
+        "Material: 100% Algodón (Franela)",
+        "Diseño: Cuadros (Gris y rosa)",
+        "Incluye: Camisa de botones y pantalón"
+      ]
+    },
+    "price": 40,
+    "stock": 75,
+    "imagesUrl": [
+      "/img/products/muji-pijama-mujer-1.jpg"
+    ],
+    "categories": [
+      "Mujer",
+      "Hogar"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5784",
+    "name": "Cuaderno B5 (Puntos)",
+    "description": {
+      "text": "Cuaderno de espiral con cubiertas de cartón reciclado. Interior con pauta de puntos (bullet journal). Papel de alta calidad.",
+      "features": [
+        "Tamaño: B5",
+        "Formato: Puntos (Dot grid)",
+        "Hojas: 80",
+        "Material Cubierta: Cartón reciclado"
+      ]
+    },
+    "price": 4,
+    "stock": 210,
+    "imagesUrl": [
+      "/img/products/muji-cuaderno-b5-puntos-1.jpg"
+    ],
+    "categories": [
+      "Papelería"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5785",
+    "name": "Camiseta de algodón (Hombre)",
+    "description": {
+      "text": "Camiseta básica de manga corta y cuello redondo. Fabricada en algodón orgánico grueso de alta durabilidad.",
+      "features": [
+        "Material: 100% Algodón orgánico",
+        "Corte: Regular",
+        "Cuello: Redondo",
+        "Color: Negro"
+      ]
+    },
+    "price": 13,
+    "stock": 300,
+    "imagesUrl": [
+      "/img/products/muji-camiseta-hombre-negra-1.jpg"
+    ],
+    "categories": [
+      "Hombre"
+    ]
+  }
+]

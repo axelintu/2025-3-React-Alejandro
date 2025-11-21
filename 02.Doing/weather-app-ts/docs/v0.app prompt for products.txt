@@ -1,0 +1,40 @@
+v0.app prompt for products
+
+Necesito un JSON con productos, basado en la tienda Muji (https://spain.muji.eu/). Debe considerar las categorías y tener al menos 10 productos por categoría y utlizar fotos reales:
+- Mujer
+- Hombre
+- Hogar
+- Muebles
+- Papelería
+- Viaje
+- Regalos
+
+Los productos pueden pertenecer a más de una categoría.
+
+El JSON debe tener esta estructura:
+
+[
+  {
+    "_id": "68b0d4189b825d20ce1e573e",
+    "name": "Mochila repelente al agua",
+    "description": {
+      "text":
+        "Mochila con un acabado que repele el agua. Las correas están diseñadas con un almohadillado que reducen la carga sobre los hombros. Fabricada con poliéster reciclado.",
+      "features": [
+        "Exterior: 100% poliéster (100% poliéster reciclado)",
+        "Forro: 100% poliéster",
+        "Malla: 100% poliéster"
+      ]
+    },
+    "price": 299,
+    "stock": 40,
+    "imagesUrl": [
+      "/img/products/airpodspro2.jpeg",
+      "/img/products/airpodspro4.jpeg"
+    ],
+    "categories": [
+      "Hogar",
+      "Regalos"
+    ]
+  }
+]

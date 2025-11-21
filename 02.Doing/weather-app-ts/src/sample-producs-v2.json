@@ -1,0 +1,1071 @@
+[
+  {
+    "_id": "843711256115",
+    "name":"Bata de baño de algodón orgánico",
+    "description": {
+      "text": "Comodidad absorbente, fabricada de forma orgánica. Esta bata de baño está fabricada con algodón 100% orgánico con una textura gruesa y cómoda que absorbe la humedad después del baño. Diseñada con una forma relajada para combinar fácilmente con otras prendas. Fabricada en una fábrica que utiliza un 98% de energía renovable.",
+      "features": [
+        "100% algodón orgánico: suave y absorbente desde el primer uso.",
+        "Textura de pelo tejido: suave en la piel y de secado rápido.",
+        "Lazo para colgar: fácil de almacenar y secar entre usos.",
+        "Fabricada de forma responsable: 98% de energía renovable utilizada en la producción."
+      ],
+      "details": [{
+        "Peso": "1.30 KGS",
+        "Material": "100% algodón",
+        "País o región de origen":"India"
+      }]
+    },
+    "price": 699,
+    "stock": 40,
+    "imagesUrl": [
+
+    ],
+    "categories": [
+      "Hogar",
+      "Hombre",
+      "Mujer"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e573e",
+    "name": "Chaqueta ligera de plumón sin cuello (Mujer)",
+    "description": {
+      "text": "Esta chaqueta ligera de plumón está diseñada para brindar comodidad y funcionalidad, y se comprime hasta alcanzar un tamaño compacto para guardarla fácilmente. Sin cuello, proporciona un aislamiento esencial adecuado para cualquier viaje o salida informal.",
+      "features": [
+        "Mangas largas",
+        "Ligera y compacta cuando está plegada",
+        "Forro antiestático",
+        "Sin pespuntes visibles en la parte delantera para un acabado refinado",
+        "100% nailon reciclado para el exterior",
+        "95% nailon reciclado para el forro"
+      ]
+    },
+    "price": 899,
+    "stock": 49,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/hong-kong-china-4-december-2023-ropa-de-cama-expuesta-en-la-tienda-muji-en-sha-tin-muji-es-un-minorista-japonés-que-vende-una-amplia-variedad-de-artículos-para-el-hogar-y-de-consumo-260nw-2399228965.jpg",
+      "https://i.shutterstock.com/image-photo/bangkok-thailand-july-3-2021-muji-japanese-retailer-store-260nw-2016399359.jpg"
+    ],
+    "categories": [
+      "Mujer",
+      "Viaje",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e573f",
+    "name": "Bolígrafo de tinta de gel 0.5mm (Negro)",
+    "description": {
+      "text": "Bolígrafo estrella de Muji con tinta de gel de secado rápido y flujo suave. Cuerpo de polipropileno minimalista. Recargable.",
+      "features": [
+        "Tinta: Gel (Negro)",
+        "Punta: 0.5mm",
+        "Material: Polipropileno",
+        "Recargable"
+      ]
+    },
+    "price": 1,
+    "stock": 500,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/chiang-mai-thailand-10-august-2025-260nw-2495085775.jpg",
+      "https://i.shutterstock.com/image-photo/singapore-06-november-2023-merchandise-displayed-260nw-2384755107.jpg"
+    ],
+    "categories": [
+      "Papelería",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5740",
+    "name": "Difusor de Aromas Ultrasónico",
+    "description": {
+      "text": "Difusor que utiliza ondas ultrasónicas para dispersar agua y aceites esenciales en una niebla fragante y fría, mejorando el ambiente del hogar. Incluye luz LED.",
+      "features": [
+        "Capacidad: 100ml (aprox.)",
+        "Función: Ultrasónico",
+        "Luz: 2 niveles de brillo",
+        "Apagado automático de seguridad"
+      ]
+    },
+    "price": 59,
+    "stock": 80,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/bangkok-thailand-july-3-2021-muji-japanese-retailer-store-260nw-2016399359.jpg",
+      "https://i.shutterstock.com/image-photo/chiba-japan-15-november-2024-interior-260nw-2357750867.jpg"
+    ],
+    "categories": [
+      "Hogar",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5741",
+    "name": "Cama de roble con plataforma (Doble)",
+    "description": {
+      "text": "Estructura de cama baja y minimalista de roble, diseñada para maximizar el espacio visual. Su diseño de plataforma evita la necesidad de un somier voluminoso.",
+      "features": [
+        "Material: Chapa de roble natural",
+        "Tamaño: Doble (147 x 202 cm)",
+        "Altura de la plataforma: 5.5 cm",
+        "Diseño modular"
+      ]
+    },
+    "price": 499,
+    "stock": 15,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/kobe-japan-july-16-2017-goods-260nw-701021494.jpg"
+    ],
+    "categories": [
+      "Muebles",
+      "Hogar"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5742",
+    "name": "Jersey de lana de punto fino cuello redondo (Mujer)",
+    "description": {
+      "text": "Jersey de punto fino de lana con cuello redondo, suave al tacto y diseñado para un ajuste cómodo. Ideal como básico de fondo de armario.",
+      "features": [
+        "Material: 100% Lana (lavable)",
+        "Corte: Regular",
+        "Color: Azul marino",
+        "Punto fino"
+      ]
+    },
+    "price": 34,
+    "stock": 210,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/taipei-taiwan-8-august-2024-muji-260nw-2384755255.jpg"
+    ],
+    "categories": [
+      "Mujer"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5743",
+    "name": "Pantalones Hakama Unisex de mezcla de lana",
+    "description": {
+      "text": "Pantalones de corte ancho y recto, inspirados en los tradicionales pantalones hakama japoneses. Fabricados con mezcla de lana para mayor calidez y suavidad, con cintura elástica.",
+      "features": [
+        "Material: Mezcla de lana y poliéster",
+        "Corte: Ancho (Hakama)",
+        "Cintura elástica",
+        "Unisex"
+      ]
+    },
+    "price": 69,
+    "stock": 120,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/taipei-taiwan-8-august-2024-muji-260nw-2384755255.jpg"
+    ],
+    "categories": [
+      "Hombre",
+      "Mujer"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5744",
+    "name": "Maleta rígida de policarbonato (36L)",
+    "description": {
+      "text": "Maleta de cabina ligera y resistente, fabricada en policarbonato duradero. Ruedas dobles silenciosas y bloqueo de rueda para mayor estabilidad en pendientes.",
+      "features": [
+        "Material: Policarbonato",
+        "Capacidad: 36L (Cabina)",
+        "Ruedas dobles silenciosas",
+        "Bloqueo de ruedas"
+      ]
+    },
+    "price": 139,
+    "stock": 30,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/kobe-japan-july-16-2017-goods-260nw-701021494.jpg"
+    ],
+    "categories": [
+      "Viaje",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5745",
+    "name": "Set de 5 cuadernos (B5)",
+    "description": {
+      "text": "Set de 5 cuadernos en formato B5 con cubierta de papel de plantación. Rayas discretas y papel de alta calidad que evita que la tinta traspase.",
+      "features": [
+        "Tamaño: B5 (176 x 250 mm)",
+        "Formato: Rayas",
+        "Cantidad: 5 cuadernos",
+        "Material Cubierta: Papel de plantación"
+      ]
+    },
+    "price": 5,
+    "stock": 300,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/chiang-mai-thailand-10-august-2025-260nw-2495085775.jpg"
+    ],
+    "categories": [
+      "Papelería",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5746",
+    "name": "Estantería modular de roble (5x2)",
+    "description": {
+      "text": "Sistema de estanterías modular de madera de roble que permite una configuración flexible. Ideal para almacenamiento y como separador de ambientes. Incluye 5 estantes.",
+      "features": [
+        "Material: Chapa de roble",
+        "Configuración: 5 estantes x 2 módulos",
+        "Dimensiones: 82 x 28.5 x 200 cm",
+        "Modular y personalizable"
+      ]
+    },
+    "price": 449,
+    "stock": 25,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/shanghai-china28-may-2023-muji-store-260nw-2313620921.jpg"
+    ],
+    "categories": [
+      "Muebles",
+      "Hogar"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5747",
+    "name": "Cojín suave 'Mochi'",
+    "description": {
+      "text": "Cojín ultra suave y elástico, conocido como 'Mochi' por su textura mullida. Relleno de microesferas que se adaptan al cuerpo para máximo confort. Ideal para el salón o el dormitorio.",
+      "features": [
+        "Relleno: Microesferas",
+        "Tejido: Elástico y suave",
+        "Tamaño: Grande",
+        "Varios colores disponibles"
+      ]
+    },
+    "price": 34,
+    "stock": 150,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/hong-kong-china-4-december-2023-ropa-de-cama-expuesta-en-la-tienda-muji-en-sha-tin-muji-es-un-minorista-japonés-que-vende-una-amplia-variedad-de-artículos-para-el-hogar-y-de-consumo-260nw-2399228965.jpg"
+    ],
+    "categories": [
+      "Hogar",
+      "Muebles",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5748",
+    "name": "Pijama de franela sin costuras laterales (Mujer)",
+    "description": {
+      "text": "Pijama de dos piezas de franela de algodón cepillado para un tacto suave y cálido. Diseño sin costuras laterales para mayor comodidad al dormir.",
+      "features": [
+        "Material: 100% Algodón (Franela)",
+        "Diseño: Sin costuras laterales",
+        "Incluye: Camisa y pantalón",
+        "Estampado: Cuadros sutiles"
+      ]
+    },
+    "price": 49,
+    "stock": 90,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/taipei-taiwan-8-august-2024-muji-260nw-2384755255.jpg"
+    ],
+    "categories": [
+      "Mujer",
+      "Hogar"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5749",
+    "name": "Cuaderno de papel de alta calidad A5 (Rayas)",
+    "description": {
+      "text": "Cuaderno con papel premium diseñado para un secado de tinta rápido y un sangrado mínimo. Cubierta de cartón reciclado simple. Apertura de 180 grados para escribir cómodamente.",
+      "features": [
+        "Tamaño: A5",
+        "Formato: Rayas",
+        "Papel: Alta calidad (70gr)",
+        "Encuadernación: Cosido"
+      ]
+    },
+    "price": 7,
+    "stock": 200,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/chiang-mai-thailand-10-august-2025-260nw-2495085775.jpg"
+    ],
+    "categories": [
+      "Papelería"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5750",
+    "name": "Bolsa de aseo colgante",
+    "description": {
+      "text": "Bolsa de aseo de viaje con gancho para colgar, ideal para optimizar el espacio en baños pequeños. Múltiples compartimentos de malla para mantener el contenido visible y organizado.",
+      "features": [
+        "Material: Poliéster resistente",
+        "Función: Plegable y colgante",
+        "Compartimentos: Múltiples bolsillos de malla",
+        "Color: Negro"
+      ]
+    },
+    "price": 18,
+    "stock": 110,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/kobe-japan-july-16-2017-goods-260nw-701021494.jpg"
+    ],
+    "categories": [
+      "Viaje",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5751",
+    "name": "Cajonera de almacenaje PP A4 (3 cajones)",
+    "description": {
+      "text": "Cajonera apilable de polipropileno blanco semitransparente, ideal para organizar documentos A4 en el escritorio o estantería. Diseño simple y duradero.",
+      "features": [
+        "Material: Polipropileno (PP)",
+        "Tamaño: A4",
+        "Cajones: 3",
+        "Apilable"
+      ]
+    },
+    "price": 26,
+    "stock": 110,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/shanghai-china28-may-2023-muji-store-260nw-2313620921.jpg"
+    ],
+    "categories": [
+      "Hogar",
+      "Papelería",
+      "Muebles"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5752",
+    "name": "Pantalón vaquero de corte cómodo (Mujer)",
+    "description": {
+      "text": "Vaqueros de algodón orgánico con un corte recto y relajado que prioriza la comodidad. Tejido denim suave y resistente.",
+      "features": [
+        "Material: 100% Algodón orgánico",
+        "Corte: Recto/Relaxed",
+        "Color: Denim azul oscuro"
+      ]
+    },
+    "price": 24,
+    "stock": 180,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/taipei-taiwan-8-august-2024-muji-260nw-2384755255.jpg"
+    ],
+    "categories": [
+      "Mujer"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5753",
+    "name": "Sudadera con capucha y cremallera (Hombre)",
+    "description": {
+      "text": "Sudadera con capucha y cremallera completa, fabricada en mezcla de algodón suave. Diseño básico y versátil para el día a día. Bolsillos tipo canguro.",
+      "features": [
+        "Material: Mezcla de algodón (French terry)",
+        "Corte: Regular",
+        "Cierre: Cremallera",
+        "Color: Gris jaspeado"
+      ]
+    },
+    "price": 44,
+    "stock": 130,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/chiang-mai-thailand-3-august-260nw-2479633393.jpg"
+    ],
+    "categories": [
+      "Hombre",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5754",
+    "name": "Organizador acrílico de escritorio (2 cajones)",
+    "description": {
+      "text": "Módulo de almacenaje de acrílico transparente con dos cajones. Ideal para material de oficina, cosméticos o pequeños accesorios. Apilable.",
+      "features": [
+        "Material: 100% Acrílico",
+        "Cajones: 2",
+        "Dimensiones: 25.5cm x 17cm x 9cm",
+        "Apilable"
+      ]
+    },
+    "price": 29,
+    "stock": 110,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/kobe-japan-july-16-2017-goods-260nw-701021494.jpg"
+    ],
+    "categories": [
+      "Papelería",
+      "Hogar",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5755",
+    "name": "Recambio de tinta de gel suave 0.5mm (Negro)",
+    "description": {
+      "text": "Recambio para el bolígrafo de tinta de gel suave. Permite la reutilización del cuerpo del bolígrafo, reduciendo el desperdicio.",
+      "features": [
+        "Tinta: Gel (Negro)",
+        "Punta: 0.5mm",
+        "Ecológico (Recambio)"
+      ]
+    },
+    "price": 1,
+    "stock": 250,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/chiang-mai-thailand-10-august-2025-260nw-2495085775.jpg"
+    ],
+    "categories": [
+      "Papelería"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5756",
+    "name": "Módulo auxiliar de escritorio (Acero)",
+    "description": {
+      "text": "Cajón auxiliar de acero para escritorio, ideal para colocar debajo de la mesa y almacenar material. Diseño minimalista y robusto.",
+      "features": [
+        "Material: Acero",
+        "Color: Blanco",
+        "Instalación: Bajo escritorio (con soportes)"
+      ]
+    },
+    "price": 49,
+    "stock": 70,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/kobe-japan-july-16-2017-goods-260nw-701021494.jpg"
+    ],
+    "categories": [
+      "Muebles",
+      "Papelería"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5757",
+    "name": "Kit de viaje para botellas (50ml)",
+    "description": {
+      "text": "Set de 3 botellas pequeñas de PET de 50ml, transparentes, ideales para llevar líquidos de higiene personal en el equipaje de mano. Incluye neceser de PVC.",
+      "features": [
+        "Material: PET y PVC",
+        "Capacidad: 50ml (Cada botella)",
+        "Cantidad: 3 botellas + 1 neceser",
+        "Apto para equipaje de mano"
+      ]
+    },
+    "price": 9,
+    "stock": 190,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/kobe-japan-july-16-2017-goods-260nw-701021494.jpg"
+    ],
+    "categories": [
+      "Viaje",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5758",
+    "name": "Camiseta de manga corta cuello redondo (Hombre)",
+    "description": {
+      "text": "Camiseta básica de algodón de alta durabilidad y tacto suave. Corte clásico y atemporal. Ideal para el día a día.",
+      "features": [
+        "Material: 100% Algodón",
+        "Corte: Regular",
+        "Cuello: Redondo",
+        "Color: Blanco"
+      ]
+    },
+    "price": 15,
+    "stock": 250,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/chiang-mai-thailand-3-august-260nw-2479633393.jpg"
+    ],
+    "categories": [
+      "Hombre"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5759",
+    "name": "Aceite esencial (Lavanda)",
+    "description": {
+      "text": "Aceite esencial 100% puro de lavanda, conocido por sus propiedades relajantes y para ayudar a conciliar el sueño. Ideal para usar con el difusor de aromas.",
+      "features": [
+        "Aroma: Lavanda",
+        "Contenido: 10ml",
+        "100% Puro"
+      ]
+    },
+    "price": 13,
+    "stock": 150,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/bangkok-thailand-july-3-2021-muji-japanese-retailer-store-260nw-2016399359.jpg"
+    ],
+    "categories": [
+      "Hogar",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5760",
+    "name": "Unidad principal de Cama de nogal con plataforma (Doble)",
+    "description": {
+      "text": "Estructura de cama de plataforma en madera de nogal, más oscura que el roble, que ofrece una sensación de elegancia y bajo perfil. Mismo diseño minimalista de la plataforma.",
+      "features": [
+        "Material: Chapa de nogal",
+        "Tamaño: Doble (147 x 202 cm)",
+        "Diseño: Plataforma baja"
+      ]
+    },
+    "price": 579,
+    "stock": 10,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/kobe-japan-july-16-2017-goods-260nw-701021494.jpg"
+    ],
+    "categories": [
+      "Muebles",
+      "Hogar",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5761",
+    "name": "Pantalones de corte recto y pana elástica (Mujer)",
+    "description": {
+      "text": "Pantalones de pana con un corte recto y cómodo, con un toque de elasticidad para mayor libertad de movimiento. Cintura con trabillas.",
+      "features": [
+        "Material: Pana elástica (Algodón/Elastano)",
+        "Corte: Recto",
+        "Color: Beige"
+      ]
+    },
+    "price": 44,
+    "stock": 95,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/taipei-taiwan-8-august-2024-muji-260nw-2384755255.jpg"
+    ],
+    "categories": [
+      "Mujer"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5762",
+    "name": "Set de 10 bolígrafos de gel 0.5mm (Colores)",
+    "description": {
+      "text": "Pack de 10 bolígrafos de tinta de gel en una variedad de colores, todos con punta de 0.5mm. Ideal para codificar y dibujar.",
+      "features": [
+        "Tinta: Gel (10 colores)",
+        "Punta: 0.5mm",
+        "Material: Policarbonato"
+      ]
+    },
+    "price": 14,
+    "stock": 130,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/chiang-mai-thailand-10-august-2025-260nw-2495085775.jpg"
+    ],
+    "categories": [
+      "Papelería",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5763",
+    "name": "Organizador de equipaje de malla (Set M)",
+    "description": {
+      "text": "Organizador rectangular de malla y poliéster para separar y clasificar la ropa dentro de la maleta. La malla permite ver el contenido.",
+      "features": [
+        "Material: Poliéster y malla",
+        "Tamaño: Mediano (26 x 40 x 10 cm)",
+        "Color: Negro",
+        "Set de 2 piezas"
+      ]
+    },
+    "price": 19,
+    "stock": 170,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/kobe-japan-july-16-2017-goods-260nw-701021494.jpg"
+    ],
+    "categories": [
+      "Viaje",
+      "Hogar"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5764",
+    "name": "Cajón de almacenaje apilable PP 55cm (L)",
+    "description": {
+      "text": "Cajón de polipropileno blanco con tapa, ideal para el almacenaje modular en armarios o estanterías. El tamaño grande es perfecto para ropa doblada o toallas.",
+      "features": [
+        "Material: Polipropileno (PP)",
+        "Dimensiones: An44 x Pr55 x Al30 cm",
+        "Apilable",
+        "Incluye tapa"
+      ]
+    },
+    "price": 39,
+    "stock": 140,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/shanghai-china28-may-2023-muji-store-260nw-2313620921.jpg"
+    ],
+    "categories": [
+      "Hogar",
+      "Muebles"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5765",
+    "name": "Cárdigan de punto sin cuello (Mujer)",
+    "description": {
+      "text": "Cárdigan de punto en mezcla de algodón, con un diseño abierto y sin cuello para una silueta relajada. Ideal para capas intermedias.",
+      "features": [
+        "Material: Mezcla de algodón",
+        "Corte: Abierto",
+        "Color: Gris claro"
+      ]
+    },
+    "price": 34,
+    "stock": 85,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/taipei-taiwan-8-august-2024-muji-260nw-2384755255.jpg"
+    ],
+    "categories": [
+      "Mujer",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5766",
+    "name": "Pantalón de corte recto y algodón (Hombre)",
+    "description": {
+      "text": "Pantalón de corte recto y ajuste cómodo, fabricado en algodón resistente. Un básico versátil para el trabajo o el ocio.",
+      "features": [
+        "Material: 100% Algodón",
+        "Corte: Recto (Regular)",
+        "Color: Beige/Khaki"
+      ]
+    },
+    "price": 39,
+    "stock": 100,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/chiang-mai-thailand-3-august-260nw-2479633393.jpg"
+    ],
+    "categories": [
+      "Hombre"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5767",
+    "name": "Set de 5 cuadernos (A4)",
+    "description": {
+      "text": "Set de 5 cuadernos en formato A4 con cubierta de papel de plantación. Rayas discretas y papel de alta calidad. Ideal para estudiantes y oficina.",
+      "features": [
+        "Tamaño: A4",
+        "Formato: Rayas",
+        "Cantidad: 5 cuadernos"
+      ]
+    },
+    "price": 5,
+    "stock": 190,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/chiang-mai-thailand-10-august-2025-260nw-2495085775.jpg"
+    ],
+    "categories": [
+      "Papelería"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5768",
+    "name": "Camiseta de cuello alto en canalé (Mujer)",
+    "description": {
+      "text": "Camiseta de manga larga con cuello alto y tejido de canalé de algodón cepillado. Perfecta para mantener el calor en invierno, sola o bajo otras prendas.",
+      "features": [
+        "Material: Algodón cepillado",
+        "Cuello: Alto (Cisne)",
+        "Tejido: Canalé (Rib)",
+        "Color: Negro"
+      ]
+    },
+    "price": 17,
+    "stock": 150,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/taipei-taiwan-8-august-2024-muji-260nw-2384755255.jpg"
+    ],
+    "categories": [
+      "Mujer"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5769",
+    "name": "Bolsa de compras de algodón (Grande)",
+    "description": {
+      "text": "Bolsa de la compra reutilizable de algodón orgánico. Resistente y con asas largas, perfecta para el uso diario. Diseño sin logo visible.",
+      "features": [
+        "Material: 100% Algodón orgánico",
+        "Tamaño: Grande",
+        "Reutilizable y plegable"
+      ]
+    },
+    "price": 3,
+    "stock": 500,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/bangkok-thailand-10-february-2025-brown-260nw-2402170363.jpg"
+    ],
+    "categories": [
+      "Regalos",
+      "Viaje",
+      "Hogar"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5770",
+    "name": "Chaqueta polar de poliéster (Hombre)",
+    "description": {
+      "text": "Chaqueta de forro polar (fleece) de poliéster, ligera y cálida. Cremallera frontal completa y bolsillos laterales. Ideal para exteriores o como capa interior.",
+      "features": [
+        "Material: 100% Poliéster (Polar)",
+        "Cierre: Cremallera",
+        "Corte: Regular",
+        "Color: Gris oscuro"
+      ]
+    },
+    "price": 44,
+    "stock": 60,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/chiang-mai-thailand-3-august-260nw-2479633393.jpg"
+    ],
+    "categories": [
+      "Hombre",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5771",
+    "name": "Módulo de almacenaje acrílico 2 cajones (Pequeño)",
+    "description": {
+      "text": "Módulo de almacenaje de acrílico transparente más pequeño, ideal para pequeños objetos como joyas o clips de papel. Apilable con otros módulos acrílicos.",
+      "features": [
+        "Material: 100% Acrílico",
+        "Cajones: 2",
+        "Dimensiones: Pequeño (17 x 13 x 9 cm)",
+        "Apilable"
+      ]
+    },
+    "price": 19,
+    "stock": 130,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/kobe-japan-july-16-2017-goods-260nw-701021494.jpg"
+    ],
+    "categories": [
+      "Hogar",
+      "Papelería",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5772",
+    "name": "Sujeta-cepillos de porcelana",
+    "description": {
+      "text": "Sujeta-cepillos de dientes individual de porcelana esmaltada. Diseño pequeño y cilíndrico que evita que el cepillo toque otras superficies. Se vende por unidad.",
+      "features": [
+        "Material: Porcelana Hakuji",
+        "Forma: Cilíndrica",
+        "Color: Blanco brillante"
+      ]
+    },
+    "price": 5,
+    "stock": 220,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/kobe-japan-july-16-2017-goods-260nw-701021494.jpg"
+    ],
+    "categories": [
+      "Hogar",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5773",
+    "name": "Camisa de algodón lavado fino (Mujer)",
+    "description": {
+      "text": "Camisa de algodón con un tejido fino y ligero. El acabado lavado le da una textura suave y un aspecto informal. Corte ligeramente holgado.",
+      "features": [
+        "Material: 100% Algodón lavado",
+        "Corte: Holgado",
+        "Manga: Larga",
+        "Color: Blanco"
+      ]
+    },
+    "price": 34,
+    "stock": 110,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/taipei-taiwan-8-august-2024-muji-260nw-2384755255.jpg"
+    ],
+    "categories": [
+      "Mujer"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5774",
+    "name": "Set de 10 bolígrafos retráctiles de tinta líquida 0.5mm",
+    "description": {
+      "text": "Pack de 10 bolígrafos retráctiles de tinta líquida con punta redonda de 0.5mm. Ofrecen una experiencia de escritura constante y fluida.",
+      "features": [
+        "Tinta: Líquida (Negro)",
+        "Punta: 0.5mm",
+        "Mecanismo: Retráctil (Click)",
+        "Pack de 10"
+      ]
+    },
+    "price": 14,
+    "stock": 90,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/chiang-mai-thailand-10-august-2025-260nw-2495085775.jpg"
+    ],
+    "categories": [
+      "Papelería",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5775",
+    "name": "Caja de almacenamiento blanda con tapa (L)",
+    "description": {
+      "text": "Caja de almacenamiento de tela blanda y flexible con tapa. Ideal para organizar ropa o juguetes. Plegable cuando no se usa para ahorrar espacio.",
+      "features": [
+        "Material: Poliéster",
+        "Dimensiones: 59x39x30cm (L)",
+        "Tapa incluida",
+        "Plegable"
+      ]
+    },
+    "price": 27,
+    "stock": 160,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/hong-kong-china-4-december-2023-ropa-de-cama-expuesta-en-la-tienda-muji-en-sha-tin-muji-es-un-minorista-japonés-que-vende-una-amplia-variedad-de-artículos-para-el-hogar-y-de-consumo-260nw-2399228965.jpg"
+    ],
+    "categories": [
+      "Hogar",
+      "Muebles"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5776",
+    "name": "Zapatillas de casa de lino plegables",
+    "description": {
+      "text": "Zapatillas de casa de lino, frescas y transpirables. Plegables en una bolsa pequeña, perfectas para viajes o para tener de repuesto en casa.",
+      "features": [
+        "Material: Lino",
+        "Plegable (incluye bolsa)",
+        "Suela antideslizante",
+        "Unisex"
+      ]
+    },
+    "price": 10,
+    "stock": 180,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/kobe-japan-july-16-2017-goods-260nw-701021494.jpg"
+    ],
+    "categories": [
+      "Viaje",
+      "Hogar",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5777",
+    "name": "Pantalón de jogging de pierna ancha (Hombre)",
+    "description": {
+      "text": "Pantalón de jogging de corte relajado y pierna ancha, fabricado en una cómoda mezcla de algodón. Cintura elástica con cordón ajustable.",
+      "features": [
+        "Material: Mezcla de algodón",
+        "Corte: Ancho (Wide-leg)",
+        "Cintura: Elástica y cordón",
+        "Color: Negro"
+      ]
+    },
+    "price": 34,
+    "stock": 70,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/chiang-mai-thailand-3-august-260nw-2479633393.jpg"
+    ],
+    "categories": [
+      "Hombre"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5778",
+    "name": "Bufanda de lana merino (Unisex)",
+    "description": {
+      "text": "Bufanda de lana merino suave, ligera y cálida. Un accesorio clásico y minimalista, apto para hombres y mujeres.",
+      "features": [
+        "Material: 100% Lana Merino",
+        "Dimensiones: 180 x 30 cm",
+        "Color: Gris claro"
+      ]
+    },
+    "price": 39,
+    "stock": 90,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/taipei-taiwan-8-august-2024-muji-260nw-2384755255.jpg"
+    ],
+    "categories": [
+      "Mujer",
+      "Hombre",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5779",
+    "name": "Estantería de acero inoxidable (Estrecha L)",
+    "description": {
+      "text": "Estantería modular de acero inoxidable con un acabado mate. Resistente y duradera, ideal para el baño, la cocina o el almacenamiento de libros.",
+      "features": [
+        "Material: Acero inoxidable",
+        "Dimensiones: 58 x 41 x 175.5 cm",
+        "Estantes: 5",
+        "Modular"
+      ]
+    },
+    "price": 449,
+    "stock": 15,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/shanghai-china28-may-2023-muji-store-260nw-2313620921.jpg"
+    ],
+    "categories": [
+      "Muebles",
+      "Hogar"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5780",
+    "name": "Cinturón de lona elástico (Hombre)",
+    "description": {
+      "text": "Cinturón trenzado de lona elástica, cómodo y sin agujeros predefinidos. Cierre de hebilla simple.",
+      "features": [
+        "Material: Lona elástica y cuero",
+        "Cierre: Hebilla metálica",
+        "Color: Azul oscuro"
+      ]
+    },
+    "price": 25,
+    "stock": 80,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/chiang-mai-thailand-3-august-260nw-2479633393.jpg"
+    ],
+    "categories": [
+      "Hombre",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5781",
+    "name": "Almohada de cuello de microesferas (Viaje)",
+    "description": {
+      "text": "Almohada de cuello con relleno de microesferas para un soporte óptimo y adaptable. Esencial para viajes largos, se puede transformar en cojín.",
+      "features": [
+        "Relleno: Microesferas de poliestireno",
+        "Funda: Algodón/poliéster",
+        "Función: 2-en-1 (almohada y cojín)"
+      ]
+    },
+    "price": 20,
+    "stock": 150,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/kobe-japan-july-16-2017-goods-260nw-701021494.jpg"
+    ],
+    "categories": [
+      "Viaje",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5782",
+    "name": "Mini Set de notas adhesivas (Reciclado)",
+    "description": {
+      "text": "Set de pequeñas notas adhesivas (post-it) en tonos neutros y papel reciclado. Ideal para marcar páginas o dejar recordatorios rápidos.",
+      "features": [
+        "Material: Papel reciclado",
+        "Cantidad: 4 bloques",
+        "Colores: Neutros"
+      ]
+    },
+    "price": 3,
+    "stock": 210,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/chiang-mai-thailand-10-august-2025-260nw-2495085775.jpg"
+    ],
+    "categories": [
+      "Papelería",
+      "Regalos"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5783",
+    "name": "Bañador de secado rápido (Hombre)",
+    "description": {
+      "text": "Bañador de corte clásico y secado rápido, ideal para piscina o playa. Cintura elástica con cordón y forro interior de malla.",
+      "features": [
+        "Material: Poliéster (Secado rápido)",
+        "Corte: Regular",
+        "Forro: Malla",
+        "Color: Azul marino"
+      ]
+    },
+    "price": 29,
+    "stock": 50,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/chiang-mai-thailand-3-august-260nw-2479633393.jpg"
+    ],
+    "categories": [
+      "Hombre",
+      "Viaje"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5784",
+    "name": "Set de aceites esenciales curativos (4x5ml)",
+    "description": {
+      "text": "Conjunto de 4 aceites esenciales de 5ml, seleccionados por sus propiedades terapéuticas (relajante, energizante, refrescante, etc.). Ideal para el difusor de aromas.",
+      "features": [
+        "Aromas: Lavanda, Bergamota, Menta, Árbol de té",
+        "Contenido: 4 x 5ml",
+        "100% Puros"
+      ]
+    },
+    "price": 17,
+    "stock": 120,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/bangkok-thailand-july-3-2021-muji-japanese-retailer-store-260nw-2016399359.jpg"
+    ],
+    "categories": [
+      "Regalos",
+      "Hogar"
+    ]
+  },
+  {
+    "_id": "68b0d4189b825d20ce1e5785",
+    "name": "Bolsa de compras con plataforma de roble (Doble Grande)",
+    "description": {
+      "text": "Funda para colchón de doble grande, fabricada en lino lavado. El lino es un material fresco, transpirable y que se suaviza con cada lavado.",
+      "features": [
+        "Material: 100% Lino lavado",
+        "Tamaño: Doble Grande (160 x 200 cm)",
+        "Color: Blanco natural"
+      ]
+    },
+    "price": 149,
+    "stock": 20,
+    "imagesUrl": [
+      "https://i.shutterstock.com/image-photo/hong-kong-china-4-december-2023-ropa-de-cama-expuesta-en-la-tienda-muji-en-sha-tin-muji-es-un-minorista-japonés-que-vende-una-amplia-variedad-de-artículos-para-el-hogar-y-de-consumo-260nw-2399228965.jpg"
+    ],
+    "categories": [
+      "Muebles",
+      "Hogar"
+    ]
+  }
+]
