@@ -1,4 +1,4 @@
-import { useEffect,useState } from "react";
+import { memo,useEffect,useState } from "react";
 
 const FAKE_WEATHER_DB = {
   aguascalientes: { 
@@ -16,15 +16,18 @@ const FAKE_WEATHER_DB = {
     condition: "Calor seco",
     humidity: 20
   }
-
 }
-export default function WeatherCard({city}) {
+function WeatherCard({city}) {
+  console.log(`renderizando weatherCard ${city}`);
+  
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
   useEffect(()=>{
     setLoading(true);
+    setError(null);
+    setData(null);
 
     const timeOutId = setTimeout(() => {
       console.log('inicio timeout');
@@ -34,13 +37,13 @@ export default function WeatherCard({city}) {
         setData(info);
         setLoading(false);
       } else {
-        setError('Error, la ciudad no existe en la base de datos');
+        setError(`Ciudad: ${city} no existe`);
         setLoading(false);
       }
     }, 2000);
 
     return () => clearTimeout(timeOutId);
-  }, []);
+  }, [city]);
 
   if (loading) { return <div>Loading...</div> };
   if (error) {return <div>{error}</div>};
@@ -66,3 +69,5 @@ export default function WeatherCard({city}) {
     
   );
 }
+
+export default memo(WeatherCard);
